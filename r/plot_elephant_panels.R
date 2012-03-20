@@ -1,7 +1,7 @@
 # ====================================================================
 # Created by:    Sean Anderson, sean@seananderson.ca
 # Created:       Dec 21, 2011
-# Last modified: Mar 14, 2012
+# Last modified: Mar 20, 2012
 # Purpose:       Make the ivory figure
 # ====================================================================
 
@@ -10,7 +10,7 @@ elephant_xlim <- c(1955, 2008)
 elephant_annotations <- read.table("../data/elephant.policy.dates.txt", header = TRUE, stringsAsFactors = FALSE, sep = "\t")
 elephant_annotations$label <- gsub("\\\\n", "\\\n", elephant_annotations$label)
 
-pdf("../fig/ivory-ts2.pdf", width = 3.4, height = 3.8)
+pdf("../fig/ivory-ts3.pdf", width = 3.4, height = 3.8)
 plot_conservation_panels(topic = "ivory", xlim = elephant_xlim, wos.axis2 = seq(0, 70, 20), wos.axis2.labels = seq(0, 70, 20), annotate_df = elephant_annotations, gnews_multiplier = 10, ylabel = "Science publications\n(per million)", gnews.axis2 = seq(0, 40, 10))
 text(1966.7, 16, "Research", col = "grey40", cex = .9, pos = 4)
 text(1988.5, 18, "News", col = "grey40", cex = .9, pos = 4)
@@ -37,7 +37,7 @@ text(1986.7, 0.47, "Estimated illegal exports\n(seizures x 10)", col = "grey40",
 axis(2, col = col.axis, col.axis = col.axis.label, at = seq(0, 1.4, .4))
 box(col = col.axis)
 add_ylabel("African ivory\nexports (1000 t)")
-fig_letter("(b) First-order response")
+fig_letter("(b) Stressor")
 with(elephant_annotations, add_annotation(year, label, print.label = FALSE))
 
 # elephant abundance:
@@ -53,7 +53,7 @@ with(elephant_pop, segments(Year, Pop..Estimate..lower./1e6, Year, Pop..Estimate
 box(col = col.axis)
 #n <- nrow(elephant_pop)
 #with(elephant_pop, segments(Year[1:(n-1)], Pop..Estimate..Number.of.elephants./1e6[1:(n-1)],Year[2:n], Pop..Estimate..Number.of.elephants./1e6[2:n], lty = 1))
-fig_letter("(c) Second-order response")
+fig_letter("(c) Response")
 
 add_ylabel("Elephant abundance\n(millions)")
 with(elephant_annotations, add_annotation(year, label, print.label = FALSE))

@@ -1,7 +1,7 @@
 # ====================================================================
 # Created by:    Sean Anderson, sean@seananderson.ca
 # Created:       Dec 17, 2011
-# Last modified: Dec 27, 2011
+# Last modified: Mar 20, 2012
 # Purpose:       Make the acid rain figure
 # ====================================================================
 
@@ -9,7 +9,7 @@ acid_rain_xlim <- c(1960, 2011)
 acid_rain_annotations <- read.table("../data/acid.rain.policy.dates.txt", header = TRUE, stringsAsFactors = FALSE, sep = "\t")
 acid_rain_annotations$label <- sub("\\\\n", "\\\n", acid_rain_annotations$label)
 
-pdf("../fig/acid-rain-ts2.pdf", width = 3.4, height = 3.8)
+pdf("../fig/acid-rain-ts3.pdf", width = 3.4, height = 3.8)
 plot_conservation_panels(topic = "acid rain", xlim = acid_rain_xlim, wos.axis2 = seq(0, 3, 0.4)*100, gnews.axis2 = seq(0, 3, 0.4)*1000, annotate_df = acid_rain_annotations, ylabel = "Science publications\n(per million)", gnews_multiplier = 0.1, ylim = c(0, 120))
 text(1989.5, 800, "News", col = "grey40", cex = .9, pos = 4)
 text(1992, 500, "Research", col = "grey40", cex = .9, pos = 4)
@@ -21,7 +21,7 @@ with(nox, lines(Year, NOx, type = "l", lty = 2))
 text(2000, 24, "NOx", col = col.text, pos = 4, cex =0.9)
 with(nox, lines(Year, SO2, type = "l", lty = 1))
 text(2000, 11.5, expression(SO[2]), col = col.text, pos = 4, cex =0.9)
-fig_letter("(b) First-order response")
+fig_letter("(b) Stressor")
 add_ylabel("US emissions\n(million t)")
 box(col = col.axis)
 with(acid_rain_annotations, add_annotation(year, label, print.label = FALSE))
@@ -40,6 +40,8 @@ text(2000.2, 4.15, "Annual mean\nby state", pos = 4, col = "grey40", cex = 0.9)
 
 for(state.i in unique(ph$State)) {x<-ddply(subset(ph, !State %in% state.i), "Year", summarize, mean.ph =  median(pH, na.rm = TRUE));with(x, lines(Year, mean.ph, col = "#00000017", lwd = 0.5))}
 
+abline(h = 5.6, col = "#00000070", lty = 3, lwd = 1.1)
+
 likens <- read.table("../data/Likens-and-Bormann-NH-pH.txt", header = TRUE, sep = "\t")
 with(likens, lines(year, pH, lty = 6))
 
@@ -47,7 +49,7 @@ axis(2, col = col.axis, col.axis = col.axis.label, at = seq(4, 5.5, .5))
 axis(1, col = col.axis, col.axis = col.axis.label)
 box(col = col.axis)
 add_ylabel("Rain pH\n")
-fig_letter("(c) Second-order response")
+fig_letter("(c) Response")
 add_xlabel()
 with(acid_rain_annotations, add_annotation(year, label, print.label = FALSE))
 

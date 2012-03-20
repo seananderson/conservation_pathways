@@ -1,7 +1,7 @@
 # ====================================================================
 # Created by:    Sean Anderson, sean@seananderson.ca
 # Created:       Dec 21, 2011
-# Last modified: Dec 27, 2011
+# Last modified: Mar 20, 2012
 # Purpose:       Make the DDT figure
 # ====================================================================
 
@@ -43,11 +43,36 @@ add_ddt_rects <- function(add.text = FALSE) {
   par(xpd = FALSE)
 }
 
-pdf("../fig/ddt-ts2.pdf", width = 3.4, height = 3.8)
-plot_conservation_panels(topic = "ddt", xlim = ddt_xlim, annotate_df = NULL, gnews_multiplier = 40, ylabel = "Science pub. (per million)\n", ylim = c(0, 3400), wos.axis2 = seq(0, 7000, 2000), wos.axis2.labels = seq(0, 7000, 2000), gnews.axis2 = seq(0, 70, 20))
-text(1990, 6.5, "Research", col = "grey40", cex = .9, pos = 4)
+pdf("../fig/ddt-ts3.pdf", width = 3.4, height = 3.8)
+### scale some data to save space:
+wos_gnews_dat[wos_gnews_dat$type == "Web of Science" & wos_gnews_dat$topic == "ddt", "freq_scaled"] <- wos_gnews_dat[wos_gnews_dat$type == "Web of Science" & wos_gnews_dat$topic == "ddt", "freq_scaled"] / 10
+wos_gnews_dat[wos_gnews_dat$type == "Web of Science" & wos_gnews_dat$topic == "ddt", "prop_ci_low"] <- wos_gnews_dat[wos_gnews_dat$type == "Web of Science" & wos_gnews_dat$topic == "ddt", "prop_ci_low"] / 10
+wos_gnews_dat[wos_gnews_dat$type == "Web of Science" & wos_gnews_dat$topic == "ddt", "prop_ci_high"] <- wos_gnews_dat[wos_gnews_dat$type == "Web of Science" & wos_gnews_dat$topic == "ddt", "prop_ci_high"] / 10
+###
+
+saved_break_freq <- wos_gnews_dat[wos_gnews_dat$type == "Web of Science" & wos_gnews_dat$topic == "ddt" & wos_gnews_dat$year == 1960, "freq_scaled"]
+wos_gnews_dat[wos_gnews_dat$type == "Web of Science" & wos_gnews_dat$topic == "ddt" & wos_gnews_dat$year == 1960, "freq_scaled" ] <- NA
+
+wos_gnews_dat[wos_gnews_dat$type == "Web of Science" & wos_gnews_dat$topic == "ddt" & wos_gnews_dat$year >= 1960, "freq_scaled" ] <- wos_gnews_dat[wos_gnews_dat$type == "Web of Science" & wos_gnews_dat$topic == "ddt" & wos_gnews_dat$year >= 1960, "freq_scaled"] * 5
+
+
+plot_conservation_panels(topic = "ddt", xlim = ddt_xlim, annotate_df = NULL, gnews_multiplier = 40, ylabel = "Science publications\n(per 10 million)", ylim = c(0, 3400), wos.axis2 = seq(0, 700, 200), wos.axis2.labels = seq(0, 700, 200), gnews.axis2 = seq(0, 70, 20))
+#text(1990, 6.5, "Research", col = "grey40", cex = .9, pos = 4)
+text(1990, 10.5, "Research", col = "grey40", cex = .9, pos = 4)
 arrows(1996, 4000, 1996, 1000, length = 0.05, lwd = 0.9, col = "grey40")
 text(1971.5, 45, "News", col = "grey40", cex = .9, pos = 4)
+#abline(v = 1960, lty = 2)
+
+### scale it back:
+wos_gnews_dat[wos_gnews_dat$type == "Web of Science" & wos_gnews_dat$topic == "ddt", "freq_scaled"] <- wos_gnews_dat[wos_gnews_dat$type == "Web of Science" & wos_gnews_dat$topic == "ddt", "freq_scaled"] * 10
+wos_gnews_dat[wos_gnews_dat$type == "Web of Science" & wos_gnews_dat$topic == "ddt", "prop_ci_low"] <- wos_gnews_dat[wos_gnews_dat$type == "Web of Science" & wos_gnews_dat$topic == "ddt", "prop_ci_low"] * 10
+wos_gnews_dat[wos_gnews_dat$type == "Web of Science" & wos_gnews_dat$topic == "ddt", "prop_ci_high"] <- wos_gnews_dat[wos_gnews_dat$type == "Web of Science" & wos_gnews_dat$topic == "ddt", "prop_ci_high"] * 10
+###
+wos_gnews_dat[wos_gnews_dat$type == "Web of Science" & wos_gnews_dat$topic == "ddt" & wos_gnews_dat$year >= 1960, "freq_scaled" ] <- wos_gnews_dat[wos_gnews_dat$type == "Web of Science" & wos_gnews_dat$topic == "ddt" & wos_gnews_dat$year >= 1960, "freq_scaled"] / 5
+
+wos_gnews_dat[wos_gnews_dat$type == "Web of Science" & wos_gnews_dat$topic == "ddt" & wos_gnews_dat$year == 1960, "freq_scaled" ] <- saved_break_freq
+
+
 
 add_ddt_rects(add.text = TRUE)
 
@@ -61,7 +86,7 @@ add_ddt_rects()
 box(col = col.axis)
 axis(2, col = col.axis, col.axis = col.axis.label)
 add_ylabel("Global DDT\nusage (Kt/a)")
-fig_letter("(b) First-order response")
+fig_letter("(b) Stressor")
 
 plot(1,1, type = "n", xlim = ddt_xlim, ylim = c(0, 120), axes = FALSE, yaxs = "i")
 with(ddt.ev, lines(year, conc.frac*100, lty = 2))
@@ -84,7 +109,7 @@ text(1983.6, 70, "Polar bears\nHudson Bay, Canada", pos = 4, col = "grey40", cex
 axis(2, col = col.axis, col.axis = col.axis.label, at = seq(0, 100, 25))
 
 box(col = col.axis)
-fig_letter("(c) Second-order response")
+fig_letter("(c) Response")
 
 add_ylabel("Percent of maximum\nDDT concentration")
 add_xlabel()
