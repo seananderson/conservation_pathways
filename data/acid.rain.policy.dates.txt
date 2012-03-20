@@ -1,0 +1,6 @@
+# Acid rain policy dates:
+year	label
+1970	Clean Air Act\nof 1970
+1980	Acid Precipitation\nAct of 1980
+1990	Clean Air Act\nof 1990
+2005	Clean Air\nInterstate Rule

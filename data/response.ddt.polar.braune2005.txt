@@ -1,0 +1,19 @@
+# found by Noel:
+# Noel: I'm still not sure about the polar bear data, I feel like the values don't really make sense in comparison to the fish data.  I'll have to get someone else to look at it at some point.
+# Persistent organic pollutants and mercury in marine biota of the Canadian Arctic: An overview of spatial and temporal trends
+# B.M. Braune a,*, P.M. Outridge b, A.T. Fisk c, D.C.G. Muir d, P.A. Helm e,1, K. Hobbs d, P.F. Hoekstra d,2, Z.A. Kuzyk f, M. Kwan g, R.J. Letcher h,3, W.L. Lockhart e, R.J. Norstrom a, G.A. Stern e, I. Stirling i
+# Science of the Total Environment 351–352 (2005) 4–56
+# fig 21
+year	DDT.ng_g.ww	St.dev
+1968	872.603	417.123
+1982	536.986	86.302
+1989	167.808	47.945
+1990	373.973	52.739
+1992	244.521	43.15
+1993	158.219	57.534
+1994	354.794	81.507
+1995	134.247	33.561
+1997	220.548	47.945
+1998	244.521	33.561
+1999	254.11	57.534
+2002	134.247	47.945

@@ -1,0 +1,29 @@
+# African elephant population estimates
+# Sent by Brett on December 20, 2011
+# Sean: What the heck is the difference between Probable, Possible, and Speculative?
+# Brett: It's a bizarre thing that they do for elephant populations in the elephant
+# database.  There are multiple paragraphs about it, but basically "definite"
+# is your lower estimate.  Those are elephants for which there is very strong
+# evidence that they exist (i.e. robust sampling programs done by aerial
+# monitoring and other good methods).  From probably to speculative, the
+# estimates are increasingly dodgy (poor sampling methods, extrapolation
+# beyond the data, that sort of thing).
+# 
+# I think the best way to present those would be a lower limit (definite only)
+# and an upper limit (definite + all 3 of the other categories), rather than
+# trying to interpret the differences between those categories.  The other
+# ones don't even try to quantify uncertainty, they just give an estimate.
+#
+# Sean: so the upper limit column is just the sum of the probable, possible, and speculative columns
+# and the estimate column (furthest on right) for the recent years is the average of the low and high values
+#
+#
+Year	Pop. Estimate (lower)	Pop. Estimate (upper)	Probable	Possible	Speculative	Pop. Estimate (Number of elephants)	# Source
+1979	NA	NA	NA	NA	NA	1300000	#Douglas-Hamilton, I. (1979). "The african elephant action plan." IUCN/WWF/NYZS Elephant Survey and Conservation Programme. 
+1984	756483	1035946	NA	NA	NA	896214.5	#Douglas-Hamilton, I. 1984. Elephant populations since 1981.  Report to african elephant and rhino specialist group - Sept 1984. Africa Elephant and rhino specialist group.
+1987	NA	NA	NA	NA	NA	720000	#Douglas-Hamilton, 1989. Overview of status and trends of the African elephant.  In the ivory trade and the future of the african elephant (ed S. Cobb).  Oxford Ivory Trade Review Group
+1989	NA	NA	NA	NA	NA	609919	#ITRG., 1989. The Ivory Trade and the Future of the African Elephant: Interim Report. Mimeograph. Gaborone, Botswana.
+1995	286234	579532	101297	155944	36057	432883	#African Elephant Database 1995
+1998	301773	487345	56196	60780	68596	394559	#African Elephant Database 1998
+2002	402067	660211	59024	99813	99307	531139	#AFrican Elephant Database 2002
+2007	472269	689671	82704	84334	50364	580970	#African Elephant Database 2007

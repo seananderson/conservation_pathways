@@ -1,0 +1,1314 @@
+# this is a copy of the complete dataset on Oct 28 2011
+# file is tab delimited
+# the_freq, gscholar_freq, and gbooks_words are all columns used to scale the "freq" column depending on the "type"
+"year"	"freq"	"type"	"topic"	"the_freq"	"gscholar_freq"	"gbooks_words"
+1860	1	"Google Books"	"acid rain"	NA	NA	527075534
+1872	2	"Google Books"	"acid rain"	NA	NA	503182681
+1873	5	"Google Books"	"acid rain"	NA	NA	520267515
+1875	4	"Google Books"	"acid rain"	NA	NA	601244572
+1878	1	"Google Books"	"acid rain"	NA	NA	538814915
+1879	6	"Google Books"	"acid rain"	NA	NA	577626163
+1880	2	"Google Books"	"acid rain"	NA	NA	684000330
+1882	1	"Google Books"	"acid rain"	NA	NA	725802405
+1883	3	"Google Books"	"acid rain"	NA	NA	829235251
+1887	2	"Google Books"	"acid rain"	NA	NA	767504871
+1890	2	"Google Books"	"acid rain"	NA	NA	757961420
+1891	3	"Google Books"	"acid rain"	NA	NA	804904443
+1893	1	"Google Books"	"acid rain"	NA	NA	844690512
+1894	1	"Google Books"	"acid rain"	NA	NA	838387285
+1896	2	"Google Books"	"acid rain"	NA	NA	966235908
+1899	39	"Google Books"	"acid rain"	NA	NA	1146173920
+1900	3	"Google Books"	"acid rain"	1540000	15800	1194673434
+1903	1	"Google Books"	"acid rain"	1670000	14100	1201034192
+1904	4	"Google Books"	"acid rain"	1680000	14100	1317638262
+1905	146	"Google Books"	"acid rain"	1600000	14400	1296062576
+1907	1	"Google Books"	"acid rain"	1900000	15000	1316581524
+1909	2	"Google Books"	"acid rain"	1970000	15500	1163646985
+1910	5	"Google Books"	"acid rain"	2030000	15600	1199425780
+1912	6	"Google Books"	"acid rain"	2070000	15800	1264175253
+1913	4	"Google Books"	"acid rain"	2200000	16000	1214795822
+1914	1	"Google Books"	"acid rain"	2170000	15900	1198107731
+1915	2	"Google Books"	"acid rain"	2150000	15700	1081251326
+1917	2	"Google Books"	"acid rain"	2030000	15600	1075128817
+1918	8	"Google Books"	"acid rain"	1980000	15500	946405350
+1919	2	"Google Books"	"acid rain"	2220000	15600	994808751
+1920	3	"Google Books"	"acid rain"	2100000	16600	1256124888
+1921	3	"Google Books"	"acid rain"	2100000	17700	1088874543
+1923	1	"Google Books"	"acid rain"	2180000	17600	999909141
+1924	3	"Google Books"	"acid rain"	2080000	18200	907305979
+1925	8	"Google Books"	"acid rain"	2250000	19000	926904801
+1927	1	"Google Books"	"acid rain"	2520000	18400	1035837121
+1928	1	"Google Books"	"acid rain"	2550000	20300	1013773976
+1929	2	"Google Books"	"acid rain"	2590000	19100	980364917
+1930	1	"Google Books"	"acid rain"	2450000	19300	1049352798
+1931	2	"Google Books"	"acid rain"	2590000	19300	1013724606
+1933	2	"Google Books"	"acid rain"	2340000	20500	804522115
+1936	1	"Google Books"	"acid rain"	2680000	24800	993320338
+1937	5	"Google Books"	"acid rain"	2480000	26800	1018146643
+1938	8	"Google Books"	"acid rain"	2390000	27500	1023791551
+1939	3	"Google Books"	"acid rain"	2490000	29700	1022392170
+1940	4	"Google Books"	"acid rain"	2780000	30600	967096233
+1941	11	"Google Books"	"acid rain"	2910000	27500	904688774
+1943	1	"Google Books"	"acid rain"	2400000	22800	786554945
+1944	2	"Google Books"	"acid rain"	2290000	20900	709200138
+1946	6	"Google Books"	"acid rain"	2350000	26800	1056582202
+1947	3	"Google Books"	"acid rain"	2370000	37400	1268248203
+1948	45	"Google Books"	"acid rain"	2640000	28300	1318184735
+1949	4	"Google Books"	"acid rain"	2840000	32200	1435313670
+1950	1	"Google Books"	"acid rain"	2800000	43700	1483665211
+1951	3	"Google Books"	"acid rain"	2740000	44800	1421682778
+1952	6	"Google Books"	"acid rain"	2950000	54500	1483448222
+1953	3	"Google Books"	"acid rain"	2970000	53000	1425536202
+1954	2	"Google Books"	"acid rain"	2900000	48000	1470743400
+1956	4	"Google Books"	"acid rain"	3310000	42000	1612180407
+1957	1	"Google Books"	"acid rain"	3470000	48100	1713740076
+1958	2	"Google Books"	"acid rain"	3440000	52800	1786783468
+1959	1	"Google Books"	"acid rain"	3340000	64600	1826583891
+1961	10	"Google Books"	"acid rain"	3820000	84500	2304135930
+1962	1	"Google Books"	"acid rain"	3750000	101000	2501301402
+1963	12	"Google Books"	"acid rain"	3730000	113000	2633879065
+1964	3	"Google Books"	"acid rain"	3810000	120000	2452549636
+1965	12	"Google Books"	"acid rain"	3690000	104000	2829809493
+1966	3	"Google Books"	"acid rain"	3650000	79000	2911802327
+1967	13	"Google Books"	"acid rain"	3770000	63400	3106860688
+1968	3	"Google Books"	"acid rain"	4040000	60200	3330546737
+1969	10	"Google Books"	"acid rain"	3890000	59500	3129567589
+1970	5	"Google Books"	"acid rain"	3820000	55800	3232293798
+1971	25	"Google Books"	"acid rain"	3950000	65900	3053767186
+1972	24	"Google Books"	"acid rain"	4050000	53400	3114971448
+1973	28	"Google Books"	"acid rain"	4090000	50700	3020839945
+1974	37	"Google Books"	"acid rain"	3980000	52600	2941503415
+1975	62	"Google Books"	"acid rain"	3720000	53600	3010625478
+1976	63	"Google Books"	"acid rain"	3820000	51200	3105793102
+1977	125	"Google Books"	"acid rain"	3880000	50400	3120159031
+1978	88	"Google Books"	"acid rain"	4230000	51600	3115743638
+1979	166	"Google Books"	"acid rain"	4510000	53500	3263010248
+1980	943	"Google Books"	"acid rain"	4490000	53300	3254366520
+1981	868	"Google Books"	"acid rain"	4790000	55300	3133047109
+1982	1057	"Google Books"	"acid rain"	4630000	49900	3284501847
+1983	1969	"Google Books"	"acid rain"	4760000	56400	3420324148
+1984	2882	"Google Books"	"acid rain"	5190000	58900	3675372571
+1985	4474	"Google Books"	"acid rain"	5640000	61300	3690136367
+1986	3919	"Google Books"	"acid rain"	6180000	62800	3858414258
+1987	3369	"Google Books"	"acid rain"	4830000	63200	3911960641
+1988	3597	"Google Books"	"acid rain"	4940000	66400	4080580336
+1989	4444	"Google Books"	"acid rain"	5130000	71000	4205870329
+1990	6161	"Google Books"	"acid rain"	5360000	75300	4564250434
+1991	5716	"Google Books"	"acid rain"	6550000	76800	4381722431
+1992	7013	"Google Books"	"acid rain"	6770000	80400	4717902147
+1993	5781	"Google Books"	"acid rain"	6740000	86200	4743032944
+1994	5805	"Google Books"	"acid rain"	6660000	95000	5103607036
+1995	6649	"Google Books"	"acid rain"	6380000	95500	5411660513
+1996	5640	"Google Books"	"acid rain"	6600000	102000	5935362941
+1997	6116	"Google Books"	"acid rain"	6630000	106000	6073782805
+1998	7685	"Google Books"	"acid rain"	7240000	118000	6502935387
+1999	6499	"Google Books"	"acid rain"	8000000	120000	6894574035
+2000	8382	"Google Books"	"acid rain"	8250000	133000	8184220292
+2001	7680	"Google Books"	"acid rain"	8290000	140000	8588230334
+2002	8167	"Google Books"	"acid rain"	9680000	145000	9697143330
+2003	8530	"Google Books"	"acid rain"	13800000	150000	10962631655
+2004	7861	"Google Books"	"acid rain"	17300000	154000	11949550089
+2005	6982	"Google Books"	"acid rain"	21500000	156000	11337444519
+2006	7097	"Google Books"	"acid rain"	23100000	160000	11875460179
+2007	5731	"Google Books"	"acid rain"	27000000	160000	12552104939
+2008	4227	"Google Books"	"acid rain"	77900000	146000	13598879452
+1900	1	"Google News Archive"	"acid rain"	1540000	15800	1194673434
+1901	0	"Google News Archive"	"acid rain"	1460000	13100	1202913367
+1902	5	"Google News Archive"	"acid rain"	1650000	13800	1212110601
+1903	1	"Google News Archive"	"acid rain"	1670000	14100	1201034192
+1904	0	"Google News Archive"	"acid rain"	1680000	14100	1317638262
+1905	2	"Google News Archive"	"acid rain"	1600000	14400	1296062576
+1906	0	"Google News Archive"	"acid rain"	1730000	14800	1285110265
+1907	0	"Google News Archive"	"acid rain"	1900000	15000	1316581524
+1908	1	"Google News Archive"	"acid rain"	1890000	15400	1315037632
+1909	0	"Google News Archive"	"acid rain"	1970000	15500	1163646985
+1910	1	"Google News Archive"	"acid rain"	2030000	15600	1199425780
+1911	0	"Google News Archive"	"acid rain"	2080000	15800	1213366639
+1912	1	"Google News Archive"	"acid rain"	2070000	15800	1264175253
+1913	0	"Google News Archive"	"acid rain"	2200000	16000	1214795822
+1914	0	"Google News Archive"	"acid rain"	2170000	15900	1198107731
+1915	0	"Google News Archive"	"acid rain"	2150000	15700	1081251326
+1916	0	"Google News Archive"	"acid rain"	2100000	15500	1074223491
+1917	0	"Google News Archive"	"acid rain"	2030000	15600	1075128817
+1918	1	"Google News Archive"	"acid rain"	1980000	15500	946405350
+1919	0	"Google News Archive"	"acid rain"	2220000	15600	994808751
+1920	0	"Google News Archive"	"acid rain"	2100000	16600	1256124888
+1921	0	"Google News Archive"	"acid rain"	2100000	17700	1088874543
+1922	2	"Google News Archive"	"acid rain"	2290000	17700	1271086291
+1923	0	"Google News Archive"	"acid rain"	2180000	17600	999909141
+1924	0	"Google News Archive"	"acid rain"	2080000	18200	907305979
+1925	0	"Google News Archive"	"acid rain"	2250000	19000	926904801
+1926	0	"Google News Archive"	"acid rain"	2360000	19300	932518326
+1927	0	"Google News Archive"	"acid rain"	2520000	18400	1035837121
+1928	0	"Google News Archive"	"acid rain"	2550000	20300	1013773976
+1929	0	"Google News Archive"	"acid rain"	2590000	19100	980364917
+1930	1	"Google News Archive"	"acid rain"	2450000	19300	1049352798
+1931	2	"Google News Archive"	"acid rain"	2590000	19300	1013724606
+1932	1	"Google News Archive"	"acid rain"	2390000	20100	895315798
+1933	0	"Google News Archive"	"acid rain"	2340000	20500	804522115
+1934	0	"Google News Archive"	"acid rain"	2530000	20000	853224221
+1935	0	"Google News Archive"	"acid rain"	2540000	23100	971830620
+1936	1	"Google News Archive"	"acid rain"	2680000	24800	993320338
+1937	2	"Google News Archive"	"acid rain"	2480000	26800	1018146643
+1938	0	"Google News Archive"	"acid rain"	2390000	27500	1023791551
+1939	1	"Google News Archive"	"acid rain"	2490000	29700	1022392170
+1940	0	"Google News Archive"	"acid rain"	2780000	30600	967096233
+1941	2	"Google News Archive"	"acid rain"	2910000	27500	904688774
+1942	1	"Google News Archive"	"acid rain"	2510000	28000	902938239
+1943	2	"Google News Archive"	"acid rain"	2400000	22800	786554945
+1944	0	"Google News Archive"	"acid rain"	2290000	20900	709200138
+1945	1	"Google News Archive"	"acid rain"	2220000	23500	804136036
+1946	1	"Google News Archive"	"acid rain"	2350000	26800	1056582202
+1947	0	"Google News Archive"	"acid rain"	2370000	37400	1268248203
+1948	0	"Google News Archive"	"acid rain"	2640000	28300	1318184735
+1949	4	"Google News Archive"	"acid rain"	2840000	32200	1435313670
+1950	1	"Google News Archive"	"acid rain"	2800000	43700	1483665211
+1951	0	"Google News Archive"	"acid rain"	2740000	44800	1421682778
+1952	0	"Google News Archive"	"acid rain"	2950000	54500	1483448222
+1953	2	"Google News Archive"	"acid rain"	2970000	53000	1425536202
+1954	1	"Google News Archive"	"acid rain"	2900000	48000	1470743400
+1955	0	"Google News Archive"	"acid rain"	3200000	40100	1550876393
+1956	1	"Google News Archive"	"acid rain"	3310000	42000	1612180407
+1957	2	"Google News Archive"	"acid rain"	3470000	48100	1713740076
+1958	1	"Google News Archive"	"acid rain"	3440000	52800	1786783468
+1959	1	"Google News Archive"	"acid rain"	3340000	64600	1826583891
+1960	0	"Google News Archive"	"acid rain"	3780000	77200	2161946184
+1961	2	"Google News Archive"	"acid rain"	3820000	84500	2304135930
+1962	5	"Google News Archive"	"acid rain"	3750000	101000	2501301402
+1963	31	"Google News Archive"	"acid rain"	3730000	113000	2633879065
+1964	18	"Google News Archive"	"acid rain"	3810000	120000	2452549636
+1965	3	"Google News Archive"	"acid rain"	3690000	104000	2829809493
+1966	1	"Google News Archive"	"acid rain"	3650000	79000	2911802327
+1967	15	"Google News Archive"	"acid rain"	3770000	63400	3106860688
+1968	1	"Google News Archive"	"acid rain"	4040000	60200	3330546737
+1969	0	"Google News Archive"	"acid rain"	3890000	59500	3129567589
+1970	5	"Google News Archive"	"acid rain"	3820000	55800	3232293798
+1971	1	"Google News Archive"	"acid rain"	3950000	65900	3053767186
+1972	5	"Google News Archive"	"acid rain"	4050000	53400	3114971448
+1973	6	"Google News Archive"	"acid rain"	4090000	50700	3020839945
+1974	25	"Google News Archive"	"acid rain"	3980000	52600	2941503415
+1975	28	"Google News Archive"	"acid rain"	3720000	53600	3010625478
+1976	20	"Google News Archive"	"acid rain"	3820000	51200	3105793102
+1977	33	"Google News Archive"	"acid rain"	3880000	50400	3120159031
+1978	76	"Google News Archive"	"acid rain"	4230000	51600	3115743638
+1979	645	"Google News Archive"	"acid rain"	4510000	53500	3263010248
+1980	1510	"Google News Archive"	"acid rain"	4490000	53300	3254366520
+1981	2230	"Google News Archive"	"acid rain"	4790000	55300	3133047109
+1982	2430	"Google News Archive"	"acid rain"	4630000	49900	3284501847
+1983	3860	"Google News Archive"	"acid rain"	4760000	56400	3420324148
+1984	5150	"Google News Archive"	"acid rain"	5190000	58900	3675372571
+1985	3620	"Google News Archive"	"acid rain"	5640000	61300	3690136367
+1986	4210	"Google News Archive"	"acid rain"	6180000	62800	3858414258
+1987	3990	"Google News Archive"	"acid rain"	4830000	63200	3911960641
+1988	4700	"Google News Archive"	"acid rain"	4940000	66400	4080580336
+1989	5590	"Google News Archive"	"acid rain"	5130000	71000	4205870329
+1990	5830	"Google News Archive"	"acid rain"	5360000	75300	4564250434
+1991	2520	"Google News Archive"	"acid rain"	6550000	76800	4381722431
+1992	2100	"Google News Archive"	"acid rain"	6770000	80400	4717902147
+1993	1600	"Google News Archive"	"acid rain"	6740000	86200	4743032944
+1994	1050	"Google News Archive"	"acid rain"	6660000	95000	5103607036
+1995	889	"Google News Archive"	"acid rain"	6380000	95500	5411660513
+1996	939	"Google News Archive"	"acid rain"	6600000	102000	5935362941
+1997	1100	"Google News Archive"	"acid rain"	6630000	106000	6073782805
+1998	925	"Google News Archive"	"acid rain"	7240000	118000	6502935387
+1999	1190	"Google News Archive"	"acid rain"	8000000	120000	6894574035
+2000	1310	"Google News Archive"	"acid rain"	8250000	133000	8184220292
+2001	1480	"Google News Archive"	"acid rain"	8290000	140000	8588230334
+2002	1870	"Google News Archive"	"acid rain"	9680000	145000	9697143330
+2003	1890	"Google News Archive"	"acid rain"	13800000	150000	10962631655
+2004	1790	"Google News Archive"	"acid rain"	17300000	154000	11949550089
+2005	2570	"Google News Archive"	"acid rain"	21500000	156000	11337444519
+2006	2300	"Google News Archive"	"acid rain"	23100000	160000	11875460179
+2007	2760	"Google News Archive"	"acid rain"	27000000	160000	12552104939
+2008	2040	"Google News Archive"	"acid rain"	77900000	146000	13598879452
+1900	NA	"Response"	"acid rain"	1540000	15800	1194673434
+1901	NA	"Response"	"acid rain"	1460000	13100	1202913367
+1902	NA	"Response"	"acid rain"	1650000	13800	1212110601
+1903	NA	"Response"	"acid rain"	1670000	14100	1201034192
+1904	NA	"Response"	"acid rain"	1680000	14100	1317638262
+1905	NA	"Response"	"acid rain"	1600000	14400	1296062576
+1906	NA	"Response"	"acid rain"	1730000	14800	1285110265
+1907	NA	"Response"	"acid rain"	1900000	15000	1316581524
+1908	NA	"Response"	"acid rain"	1890000	15400	1315037632
+1909	NA	"Response"	"acid rain"	1970000	15500	1163646985
+1910	NA	"Response"	"acid rain"	2030000	15600	1199425780
+1911	NA	"Response"	"acid rain"	2080000	15800	1213366639
+1912	NA	"Response"	"acid rain"	2070000	15800	1264175253
+1913	NA	"Response"	"acid rain"	2200000	16000	1214795822
+1914	NA	"Response"	"acid rain"	2170000	15900	1198107731
+1915	NA	"Response"	"acid rain"	2150000	15700	1081251326
+1916	NA	"Response"	"acid rain"	2100000	15500	1074223491
+1917	NA	"Response"	"acid rain"	2030000	15600	1075128817
+1918	NA	"Response"	"acid rain"	1980000	15500	946405350
+1919	NA	"Response"	"acid rain"	2220000	15600	994808751
+1920	NA	"Response"	"acid rain"	2100000	16600	1256124888
+1921	NA	"Response"	"acid rain"	2100000	17700	1088874543
+1922	NA	"Response"	"acid rain"	2290000	17700	1271086291
+1923	NA	"Response"	"acid rain"	2180000	17600	999909141
+1924	NA	"Response"	"acid rain"	2080000	18200	907305979
+1925	NA	"Response"	"acid rain"	2250000	19000	926904801
+1926	NA	"Response"	"acid rain"	2360000	19300	932518326
+1927	NA	"Response"	"acid rain"	2520000	18400	1035837121
+1928	NA	"Response"	"acid rain"	2550000	20300	1013773976
+1929	NA	"Response"	"acid rain"	2590000	19100	980364917
+1930	NA	"Response"	"acid rain"	2450000	19300	1049352798
+1931	NA	"Response"	"acid rain"	2590000	19300	1013724606
+1932	NA	"Response"	"acid rain"	2390000	20100	895315798
+1933	NA	"Response"	"acid rain"	2340000	20500	804522115
+1934	NA	"Response"	"acid rain"	2530000	20000	853224221
+1935	NA	"Response"	"acid rain"	2540000	23100	971830620
+1936	NA	"Response"	"acid rain"	2680000	24800	993320338
+1937	NA	"Response"	"acid rain"	2480000	26800	1018146643
+1938	NA	"Response"	"acid rain"	2390000	27500	1023791551
+1939	NA	"Response"	"acid rain"	2490000	29700	1022392170
+1940	NA	"Response"	"acid rain"	2780000	30600	967096233
+1941	NA	"Response"	"acid rain"	2910000	27500	904688774
+1942	NA	"Response"	"acid rain"	2510000	28000	902938239
+1943	NA	"Response"	"acid rain"	2400000	22800	786554945
+1944	NA	"Response"	"acid rain"	2290000	20900	709200138
+1945	NA	"Response"	"acid rain"	2220000	23500	804136036
+1946	NA	"Response"	"acid rain"	2350000	26800	1056582202
+1947	NA	"Response"	"acid rain"	2370000	37400	1268248203
+1948	NA	"Response"	"acid rain"	2640000	28300	1318184735
+1949	NA	"Response"	"acid rain"	2840000	32200	1435313670
+1950	NA	"Response"	"acid rain"	2800000	43700	1483665211
+1951	NA	"Response"	"acid rain"	2740000	44800	1421682778
+1952	NA	"Response"	"acid rain"	2950000	54500	1483448222
+1953	NA	"Response"	"acid rain"	2970000	53000	1425536202
+1954	NA	"Response"	"acid rain"	2900000	48000	1470743400
+1955	NA	"Response"	"acid rain"	3200000	40100	1550876393
+1956	NA	"Response"	"acid rain"	3310000	42000	1612180407
+1957	NA	"Response"	"acid rain"	3470000	48100	1713740076
+1958	NA	"Response"	"acid rain"	3440000	52800	1786783468
+1959	NA	"Response"	"acid rain"	3340000	64600	1826583891
+1960	NA	"Response"	"acid rain"	3780000	77200	2161946184
+1961	NA	"Response"	"acid rain"	3820000	84500	2304135930
+1962	NA	"Response"	"acid rain"	3750000	101000	2501301402
+1963	NA	"Response"	"acid rain"	3730000	113000	2633879065
+1964	NA	"Response"	"acid rain"	3810000	120000	2452549636
+1965	NA	"Response"	"acid rain"	3690000	104000	2829809493
+1966	NA	"Response"	"acid rain"	3650000	79000	2911802327
+1967	NA	"Response"	"acid rain"	3770000	63400	3106860688
+1968	NA	"Response"	"acid rain"	4040000	60200	3330546737
+1969	NA	"Response"	"acid rain"	3890000	59500	3129567589
+1970	NA	"Response"	"acid rain"	3820000	55800	3232293798
+1971	NA	"Response"	"acid rain"	3950000	65900	3053767186
+1972	NA	"Response"	"acid rain"	4050000	53400	3114971448
+1973	NA	"Response"	"acid rain"	4090000	50700	3020839945
+1974	NA	"Response"	"acid rain"	3980000	52600	2941503415
+1975	NA	"Response"	"acid rain"	3720000	53600	3010625478
+1976	NA	"Response"	"acid rain"	3820000	51200	3105793102
+1977	NA	"Response"	"acid rain"	3880000	50400	3120159031
+1978	4.61	"Response"	"acid rain"	4230000	51600	3115743638
+1979	4.67	"Response"	"acid rain"	4510000	53500	3263010248
+1980	4.76	"Response"	"acid rain"	4490000	53300	3254366520
+1981	4.77	"Response"	"acid rain"	4790000	55300	3133047109
+1982	4.82	"Response"	"acid rain"	4630000	49900	3284501847
+1983	4.87	"Response"	"acid rain"	4760000	56400	3420324148
+1984	4.84	"Response"	"acid rain"	5190000	58900	3675372571
+1985	4.84	"Response"	"acid rain"	5640000	61300	3690136367
+1986	4.88	"Response"	"acid rain"	6180000	62800	3858414258
+1987	4.86	"Response"	"acid rain"	4830000	63200	3911960641
+1988	4.86	"Response"	"acid rain"	4940000	66400	4080580336
+1989	4.97	"Response"	"acid rain"	5130000	71000	4205870329
+1990	4.95	"Response"	"acid rain"	5360000	75300	4564250434
+1991	4.93	"Response"	"acid rain"	6550000	76800	4381722431
+1992	4.94	"Response"	"acid rain"	6770000	80400	4717902147
+1993	4.93	"Response"	"acid rain"	6740000	86200	4743032944
+1994	4.85	"Response"	"acid rain"	6660000	95000	5103607036
+1995	4.9	"Response"	"acid rain"	6380000	95500	5411660513
+1996	4.91	"Response"	"acid rain"	6600000	102000	5935362941
+1997	4.86	"Response"	"acid rain"	6630000	106000	6073782805
+1998	4.87	"Response"	"acid rain"	7240000	118000	6502935387
+1999	4.91	"Response"	"acid rain"	8000000	120000	6894574035
+2000	4.92	"Response"	"acid rain"	8250000	133000	8184220292
+2001	4.95	"Response"	"acid rain"	8290000	140000	8588230334
+2002	5.04	"Response"	"acid rain"	9680000	145000	9697143330
+2003	5.03	"Response"	"acid rain"	13800000	150000	10962631655
+2004	4.99	"Response"	"acid rain"	17300000	154000	11949550089
+2005	4.99	"Response"	"acid rain"	21500000	156000	11337444519
+2006	5.01	"Response"	"acid rain"	23100000	160000	11875460179
+2007	5.04	"Response"	"acid rain"	27000000	160000	12552104939
+2008	5.11	"Response"	"acid rain"	77900000	146000	13598879452
+1900	0	"Web of Science"	"acid rain"	1540000	15800	1194673434
+1901	0	"Web of Science"	"acid rain"	1460000	13100	1202913367
+1902	0	"Web of Science"	"acid rain"	1650000	13800	1212110601
+1903	0	"Web of Science"	"acid rain"	1670000	14100	1201034192
+1904	0	"Web of Science"	"acid rain"	1680000	14100	1317638262
+1905	0	"Web of Science"	"acid rain"	1600000	14400	1296062576
+1906	0	"Web of Science"	"acid rain"	1730000	14800	1285110265
+1907	0	"Web of Science"	"acid rain"	1900000	15000	1316581524
+1908	0	"Web of Science"	"acid rain"	1890000	15400	1315037632
+1909	0	"Web of Science"	"acid rain"	1970000	15500	1163646985
+1910	0	"Web of Science"	"acid rain"	2030000	15600	1199425780
+1911	0	"Web of Science"	"acid rain"	2080000	15800	1213366639
+1912	0	"Web of Science"	"acid rain"	2070000	15800	1264175253
+1913	0	"Web of Science"	"acid rain"	2200000	16000	1214795822
+1914	0	"Web of Science"	"acid rain"	2170000	15900	1198107731
+1915	0	"Web of Science"	"acid rain"	2150000	15700	1081251326
+1916	0	"Web of Science"	"acid rain"	2100000	15500	1074223491
+1917	0	"Web of Science"	"acid rain"	2030000	15600	1075128817
+1918	0	"Web of Science"	"acid rain"	1980000	15500	946405350
+1919	0	"Web of Science"	"acid rain"	2220000	15600	994808751
+1920	0	"Web of Science"	"acid rain"	2100000	16600	1256124888
+1921	0	"Web of Science"	"acid rain"	2100000	17700	1088874543
+1922	0	"Web of Science"	"acid rain"	2290000	17700	1271086291
+1923	0	"Web of Science"	"acid rain"	2180000	17600	999909141
+1924	0	"Web of Science"	"acid rain"	2080000	18200	907305979
+1925	0	"Web of Science"	"acid rain"	2250000	19000	926904801
+1926	0	"Web of Science"	"acid rain"	2360000	19300	932518326
+1927	0	"Web of Science"	"acid rain"	2520000	18400	1035837121
+1928	0	"Web of Science"	"acid rain"	2550000	20300	1013773976
+1929	0	"Web of Science"	"acid rain"	2590000	19100	980364917
+1930	0	"Web of Science"	"acid rain"	2450000	19300	1049352798
+1931	0	"Web of Science"	"acid rain"	2590000	19300	1013724606
+1932	0	"Web of Science"	"acid rain"	2390000	20100	895315798
+1933	0	"Web of Science"	"acid rain"	2340000	20500	804522115
+1934	0	"Web of Science"	"acid rain"	2530000	20000	853224221
+1935	0	"Web of Science"	"acid rain"	2540000	23100	971830620
+1936	0	"Web of Science"	"acid rain"	2680000	24800	993320338
+1937	0	"Web of Science"	"acid rain"	2480000	26800	1018146643
+1938	0	"Web of Science"	"acid rain"	2390000	27500	1023791551
+1939	0	"Web of Science"	"acid rain"	2490000	29700	1022392170
+1940	0	"Web of Science"	"acid rain"	2780000	30600	967096233
+1941	0	"Web of Science"	"acid rain"	2910000	27500	904688774
+1942	0	"Web of Science"	"acid rain"	2510000	28000	902938239
+1943	0	"Web of Science"	"acid rain"	2400000	22800	786554945
+1944	0	"Web of Science"	"acid rain"	2290000	20900	709200138
+1945	0	"Web of Science"	"acid rain"	2220000	23500	804136036
+1946	0	"Web of Science"	"acid rain"	2350000	26800	1056582202
+1947	0	"Web of Science"	"acid rain"	2370000	37400	1268248203
+1948	0	"Web of Science"	"acid rain"	2640000	28300	1318184735
+1949	0	"Web of Science"	"acid rain"	2840000	32200	1435313670
+1950	0	"Web of Science"	"acid rain"	2800000	43700	1483665211
+1951	0	"Web of Science"	"acid rain"	2740000	44800	1421682778
+1952	0	"Web of Science"	"acid rain"	2950000	54500	1483448222
+1953	0	"Web of Science"	"acid rain"	2970000	53000	1425536202
+1954	0	"Web of Science"	"acid rain"	2900000	48000	1470743400
+1955	0	"Web of Science"	"acid rain"	3200000	40100	1550876393
+1956	0	"Web of Science"	"acid rain"	3310000	42000	1612180407
+1957	0	"Web of Science"	"acid rain"	3470000	48100	1713740076
+1958	0	"Web of Science"	"acid rain"	3440000	52800	1786783468
+1959	0	"Web of Science"	"acid rain"	3340000	64600	1826583891
+1960	0	"Web of Science"	"acid rain"	3780000	77200	2161946184
+1961	0	"Web of Science"	"acid rain"	3820000	84500	2304135930
+1962	0	"Web of Science"	"acid rain"	3750000	101000	2501301402
+1963	0	"Web of Science"	"acid rain"	3730000	113000	2633879065
+1964	0	"Web of Science"	"acid rain"	3810000	120000	2452549636
+1965	0	"Web of Science"	"acid rain"	3690000	104000	2829809493
+1966	0	"Web of Science"	"acid rain"	3650000	79000	2911802327
+1967	0	"Web of Science"	"acid rain"	3770000	63400	3106860688
+1968	0	"Web of Science"	"acid rain"	4040000	60200	3330546737
+1969	0	"Web of Science"	"acid rain"	3890000	59500	3129567589
+1970	0	"Web of Science"	"acid rain"	3820000	55800	3232293798
+1971	0	"Web of Science"	"acid rain"	3950000	65900	3053767186
+1972	1	"Web of Science"	"acid rain"	4050000	53400	3114971448
+1973	0	"Web of Science"	"acid rain"	4090000	50700	3020839945
+1974	2	"Web of Science"	"acid rain"	3980000	52600	2941503415
+1975	1	"Web of Science"	"acid rain"	3720000	53600	3010625478
+1976	3	"Web of Science"	"acid rain"	3820000	51200	3105793102
+1977	5	"Web of Science"	"acid rain"	3880000	50400	3120159031
+1978	1	"Web of Science"	"acid rain"	4230000	51600	3115743638
+1979	6	"Web of Science"	"acid rain"	4510000	53500	3263010248
+1980	13	"Web of Science"	"acid rain"	4490000	53300	3254366520
+1981	27	"Web of Science"	"acid rain"	4790000	55300	3133047109
+1982	23	"Web of Science"	"acid rain"	4630000	49900	3284501847
+1983	61	"Web of Science"	"acid rain"	4760000	56400	3420324148
+1984	60	"Web of Science"	"acid rain"	5190000	58900	3675372571
+1985	42	"Web of Science"	"acid rain"	5640000	61300	3690136367
+1986	48	"Web of Science"	"acid rain"	6180000	62800	3858414258
+1987	61	"Web of Science"	"acid rain"	4830000	63200	3911960641
+1988	47	"Web of Science"	"acid rain"	4940000	66400	4080580336
+1989	45	"Web of Science"	"acid rain"	5130000	71000	4205870329
+1990	35	"Web of Science"	"acid rain"	5360000	75300	4564250434
+1991	41	"Web of Science"	"acid rain"	6550000	76800	4381722431
+1992	22	"Web of Science"	"acid rain"	6770000	80400	4717902147
+1993	22	"Web of Science"	"acid rain"	6740000	86200	4743032944
+1994	23	"Web of Science"	"acid rain"	6660000	95000	5103607036
+1995	23	"Web of Science"	"acid rain"	6380000	95500	5411660513
+1996	29	"Web of Science"	"acid rain"	6600000	102000	5935362941
+1997	17	"Web of Science"	"acid rain"	6630000	106000	6073782805
+1998	28	"Web of Science"	"acid rain"	7240000	118000	6502935387
+1999	20	"Web of Science"	"acid rain"	8000000	120000	6894574035
+2000	13	"Web of Science"	"acid rain"	8250000	133000	8184220292
+2001	14	"Web of Science"	"acid rain"	8290000	140000	8588230334
+2002	14	"Web of Science"	"acid rain"	9680000	145000	9697143330
+2003	20	"Web of Science"	"acid rain"	13800000	150000	10962631655
+2004	16	"Web of Science"	"acid rain"	17300000	154000	11949550089
+2005	17	"Web of Science"	"acid rain"	21500000	156000	11337444519
+2006	11	"Web of Science"	"acid rain"	23100000	160000	11875460179
+2007	11	"Web of Science"	"acid rain"	27000000	160000	12552104939
+2008	16	"Web of Science"	"acid rain"	77900000	146000	13598879452
+1899	1	"Google Books"	"ddt"	NA	NA	1146173920
+1905	6	"Google Books"	"ddt"	1600000	14400	1296062576
+1928	1	"Google Books"	"ddt"	2550000	20300	1013773976
+1942	1	"Google Books"	"ddt"	2510000	28000	902938239
+1944	2	"Google Books"	"ddt"	2290000	20900	709200138
+1945	1	"Google Books"	"ddt"	2220000	23500	804136036
+1946	4	"Google Books"	"ddt"	2350000	26800	1056582202
+1947	1	"Google Books"	"ddt"	2370000	37400	1268248203
+1948	9	"Google Books"	"ddt"	2640000	28300	1318184735
+1949	6	"Google Books"	"ddt"	2840000	32200	1435313670
+1950	20	"Google Books"	"ddt"	2800000	43700	1483665211
+1951	14	"Google Books"	"ddt"	2740000	44800	1421682778
+1952	1	"Google Books"	"ddt"	2950000	54500	1483448222
+1953	5	"Google Books"	"ddt"	2970000	53000	1425536202
+1954	14	"Google Books"	"ddt"	2900000	48000	1470743400
+1955	9	"Google Books"	"ddt"	3200000	40100	1550876393
+1956	18	"Google Books"	"ddt"	3310000	42000	1612180407
+1957	7	"Google Books"	"ddt"	3470000	48100	1713740076
+1958	24	"Google Books"	"ddt"	3440000	52800	1786783468
+1959	2	"Google Books"	"ddt"	3340000	64600	1826583891
+1960	15	"Google Books"	"ddt"	3780000	77200	2161946184
+1961	7	"Google Books"	"ddt"	3820000	84500	2304135930
+1962	17	"Google Books"	"ddt"	3750000	101000	2501301402
+1963	21	"Google Books"	"ddt"	3730000	113000	2633879065
+1964	15	"Google Books"	"ddt"	3810000	120000	2452549636
+1965	31	"Google Books"	"ddt"	3690000	104000	2829809493
+1966	11	"Google Books"	"ddt"	3650000	79000	2911802327
+1967	23	"Google Books"	"ddt"	3770000	63400	3106860688
+1968	22	"Google Books"	"ddt"	4040000	60200	3330546737
+1969	18	"Google Books"	"ddt"	3890000	59500	3129567589
+1970	18	"Google Books"	"ddt"	3820000	55800	3232293798
+1971	31	"Google Books"	"ddt"	3950000	65900	3053767186
+1972	33	"Google Books"	"ddt"	4050000	53400	3114971448
+1973	23	"Google Books"	"ddt"	4090000	50700	3020839945
+1974	40	"Google Books"	"ddt"	3980000	52600	2941503415
+1975	20	"Google Books"	"ddt"	3720000	53600	3010625478
+1976	22	"Google Books"	"ddt"	3820000	51200	3105793102
+1977	23	"Google Books"	"ddt"	3880000	50400	3120159031
+1978	32	"Google Books"	"ddt"	4230000	51600	3115743638
+1979	26	"Google Books"	"ddt"	4510000	53500	3263010248
+1980	31	"Google Books"	"ddt"	4490000	53300	3254366520
+1981	27	"Google Books"	"ddt"	4790000	55300	3133047109
+1982	20	"Google Books"	"ddt"	4630000	49900	3284501847
+1983	35	"Google Books"	"ddt"	4760000	56400	3420324148
+1984	38	"Google Books"	"ddt"	5190000	58900	3675372571
+1985	49	"Google Books"	"ddt"	5640000	61300	3690136367
+1986	30	"Google Books"	"ddt"	6180000	62800	3858414258
+1987	24	"Google Books"	"ddt"	4830000	63200	3911960641
+1988	52	"Google Books"	"ddt"	4940000	66400	4080580336
+1989	40	"Google Books"	"ddt"	5130000	71000	4205870329
+1990	33	"Google Books"	"ddt"	5360000	75300	4564250434
+1991	62	"Google Books"	"ddt"	6550000	76800	4381722431
+1992	50	"Google Books"	"ddt"	6770000	80400	4717902147
+1993	72	"Google Books"	"ddt"	6740000	86200	4743032944
+1994	65	"Google Books"	"ddt"	6660000	95000	5103607036
+1995	52	"Google Books"	"ddt"	6380000	95500	5411660513
+1996	82	"Google Books"	"ddt"	6600000	102000	5935362941
+1997	112	"Google Books"	"ddt"	6630000	106000	6073782805
+1998	114	"Google Books"	"ddt"	7240000	118000	6502935387
+1999	107	"Google Books"	"ddt"	8000000	120000	6894574035
+2000	154	"Google Books"	"ddt"	8250000	133000	8184220292
+2001	189	"Google Books"	"ddt"	8290000	140000	8588230334
+2002	249	"Google Books"	"ddt"	9680000	145000	9697143330
+2003	204	"Google Books"	"ddt"	13800000	150000	10962631655
+2004	213	"Google Books"	"ddt"	17300000	154000	11949550089
+2005	223	"Google Books"	"ddt"	21500000	156000	11337444519
+2006	220	"Google Books"	"ddt"	23100000	160000	11875460179
+2007	189	"Google Books"	"ddt"	27000000	160000	12552104939
+2008	123	"Google Books"	"ddt"	77900000	146000	13598879452
+1900	2	"Google News Archive"	"ddt"	1540000	15800	1194673434
+1901	3	"Google News Archive"	"ddt"	1460000	13100	1202913367
+1902	3	"Google News Archive"	"ddt"	1650000	13800	1212110601
+1903	4	"Google News Archive"	"ddt"	1670000	14100	1201034192
+1904	6	"Google News Archive"	"ddt"	1680000	14100	1317638262
+1905	8	"Google News Archive"	"ddt"	1600000	14400	1296062576
+1906	3	"Google News Archive"	"ddt"	1730000	14800	1285110265
+1907	4	"Google News Archive"	"ddt"	1900000	15000	1316581524
+1908	4	"Google News Archive"	"ddt"	1890000	15400	1315037632
+1909	2	"Google News Archive"	"ddt"	1970000	15500	1163646985
+1910	3	"Google News Archive"	"ddt"	2030000	15600	1199425780
+1911	3	"Google News Archive"	"ddt"	2080000	15800	1213366639
+1912	1	"Google News Archive"	"ddt"	2070000	15800	1264175253
+1913	6	"Google News Archive"	"ddt"	2200000	16000	1214795822
+1914	2	"Google News Archive"	"ddt"	2170000	15900	1198107731
+1915	3	"Google News Archive"	"ddt"	2150000	15700	1081251326
+1916	3	"Google News Archive"	"ddt"	2100000	15500	1074223491
+1917	8	"Google News Archive"	"ddt"	2030000	15600	1075128817
+1918	9	"Google News Archive"	"ddt"	1980000	15500	946405350
+1919	8	"Google News Archive"	"ddt"	2220000	15600	994808751
+1920	7	"Google News Archive"	"ddt"	2100000	16600	1256124888
+1921	3	"Google News Archive"	"ddt"	2100000	17700	1088874543
+1922	1	"Google News Archive"	"ddt"	2290000	17700	1271086291
+1923	7	"Google News Archive"	"ddt"	2180000	17600	999909141
+1924	3	"Google News Archive"	"ddt"	2080000	18200	907305979
+1925	11	"Google News Archive"	"ddt"	2250000	19000	926904801
+1926	11	"Google News Archive"	"ddt"	2360000	19300	932518326
+1927	4	"Google News Archive"	"ddt"	2520000	18400	1035837121
+1928	12	"Google News Archive"	"ddt"	2550000	20300	1013773976
+1929	8	"Google News Archive"	"ddt"	2590000	19100	980364917
+1930	5	"Google News Archive"	"ddt"	2450000	19300	1049352798
+1931	5	"Google News Archive"	"ddt"	2590000	19300	1013724606
+1932	3	"Google News Archive"	"ddt"	2390000	20100	895315798
+1933	5	"Google News Archive"	"ddt"	2340000	20500	804522115
+1934	3	"Google News Archive"	"ddt"	2530000	20000	853224221
+1935	2	"Google News Archive"	"ddt"	2540000	23100	971830620
+1936	5	"Google News Archive"	"ddt"	2680000	24800	993320338
+1937	9	"Google News Archive"	"ddt"	2480000	26800	1018146643
+1938	3	"Google News Archive"	"ddt"	2390000	27500	1023791551
+1939	6	"Google News Archive"	"ddt"	2490000	29700	1022392170
+1940	4	"Google News Archive"	"ddt"	2780000	30600	967096233
+1941	3	"Google News Archive"	"ddt"	2910000	27500	904688774
+1942	5	"Google News Archive"	"ddt"	2510000	28000	902938239
+1943	7	"Google News Archive"	"ddt"	2400000	22800	786554945
+1944	40	"Google News Archive"	"ddt"	2290000	20900	709200138
+1945	124	"Google News Archive"	"ddt"	2220000	23500	804136036
+1946	146	"Google News Archive"	"ddt"	2350000	26800	1056582202
+1947	95	"Google News Archive"	"ddt"	2370000	37400	1268248203
+1948	135	"Google News Archive"	"ddt"	2640000	28300	1318184735
+1949	94	"Google News Archive"	"ddt"	2840000	32200	1435313670
+1950	77	"Google News Archive"	"ddt"	2800000	43700	1483665211
+1951	62	"Google News Archive"	"ddt"	2740000	44800	1421682778
+1952	97	"Google News Archive"	"ddt"	2950000	54500	1483448222
+1953	89	"Google News Archive"	"ddt"	2970000	53000	1425536202
+1954	56	"Google News Archive"	"ddt"	2900000	48000	1470743400
+1955	80	"Google News Archive"	"ddt"	3200000	40100	1550876393
+1956	85	"Google News Archive"	"ddt"	3310000	42000	1612180407
+1957	82	"Google News Archive"	"ddt"	3470000	48100	1713740076
+1958	70	"Google News Archive"	"ddt"	3440000	52800	1786783468
+1959	56	"Google News Archive"	"ddt"	3340000	64600	1826583891
+1960	69	"Google News Archive"	"ddt"	3780000	77200	2161946184
+1961	52	"Google News Archive"	"ddt"	3820000	84500	2304135930
+1962	110	"Google News Archive"	"ddt"	3750000	101000	2501301402
+1963	105	"Google News Archive"	"ddt"	3730000	113000	2633879065
+1964	87	"Google News Archive"	"ddt"	3810000	120000	2452549636
+1965	89	"Google News Archive"	"ddt"	3690000	104000	2829809493
+1966	88	"Google News Archive"	"ddt"	3650000	79000	2911802327
+1967	73	"Google News Archive"	"ddt"	3770000	63400	3106860688
+1968	83	"Google News Archive"	"ddt"	4040000	60200	3330546737
+1969	248	"Google News Archive"	"ddt"	3890000	59500	3129567589
+1970	229	"Google News Archive"	"ddt"	3820000	55800	3232293798
+1971	222	"Google News Archive"	"ddt"	3950000	65900	3053767186
+1972	176	"Google News Archive"	"ddt"	4050000	53400	3114971448
+1973	156	"Google News Archive"	"ddt"	4090000	50700	3020839945
+1974	135	"Google News Archive"	"ddt"	3980000	52600	2941503415
+1975	122	"Google News Archive"	"ddt"	3720000	53600	3010625478
+1976	117	"Google News Archive"	"ddt"	3820000	51200	3105793102
+1977	131	"Google News Archive"	"ddt"	3880000	50400	3120159031
+1978	116	"Google News Archive"	"ddt"	4230000	51600	3115743638
+1979	103	"Google News Archive"	"ddt"	4510000	53500	3263010248
+1980	95	"Google News Archive"	"ddt"	4490000	53300	3254366520
+1981	73	"Google News Archive"	"ddt"	4790000	55300	3133047109
+1982	70	"Google News Archive"	"ddt"	4630000	49900	3284501847
+1983	98	"Google News Archive"	"ddt"	4760000	56400	3420324148
+1984	94	"Google News Archive"	"ddt"	5190000	58900	3675372571
+1985	123	"Google News Archive"	"ddt"	5640000	61300	3690136367
+1986	111	"Google News Archive"	"ddt"	6180000	62800	3858414258
+1987	116	"Google News Archive"	"ddt"	4830000	63200	3911960641
+1988	100	"Google News Archive"	"ddt"	4940000	66400	4080580336
+1989	131	"Google News Archive"	"ddt"	5130000	71000	4205870329
+1990	168	"Google News Archive"	"ddt"	5360000	75300	4564250434
+1991	139	"Google News Archive"	"ddt"	6550000	76800	4381722431
+1992	180	"Google News Archive"	"ddt"	6770000	80400	4717902147
+1993	149	"Google News Archive"	"ddt"	6740000	86200	4743032944
+1994	214	"Google News Archive"	"ddt"	6660000	95000	5103607036
+1995	169	"Google News Archive"	"ddt"	6380000	95500	5411660513
+1996	141	"Google News Archive"	"ddt"	6600000	102000	5935362941
+1997	177	"Google News Archive"	"ddt"	6630000	106000	6073782805
+1998	165	"Google News Archive"	"ddt"	7240000	118000	6502935387
+1999	220	"Google News Archive"	"ddt"	8000000	120000	6894574035
+2000	227	"Google News Archive"	"ddt"	8250000	133000	8184220292
+2001	206	"Google News Archive"	"ddt"	8290000	140000	8588230334
+2002	281	"Google News Archive"	"ddt"	9680000	145000	9697143330
+2003	341	"Google News Archive"	"ddt"	13800000	150000	10962631655
+2004	363	"Google News Archive"	"ddt"	17300000	154000	11949550089
+2005	674	"Google News Archive"	"ddt"	21500000	156000	11337444519
+2006	619	"Google News Archive"	"ddt"	23100000	160000	11875460179
+2007	672	"Google News Archive"	"ddt"	27000000	160000	12552104939
+2008	402	"Google News Archive"	"ddt"	77900000	146000	13598879452
+1900	NA	"Response"	"ddt"	1540000	15800	1194673434
+1901	NA	"Response"	"ddt"	1460000	13100	1202913367
+1902	NA	"Response"	"ddt"	1650000	13800	1212110601
+1903	NA	"Response"	"ddt"	1670000	14100	1201034192
+1904	NA	"Response"	"ddt"	1680000	14100	1317638262
+1905	NA	"Response"	"ddt"	1600000	14400	1296062576
+1906	NA	"Response"	"ddt"	1730000	14800	1285110265
+1907	NA	"Response"	"ddt"	1900000	15000	1316581524
+1908	NA	"Response"	"ddt"	1890000	15400	1315037632
+1909	NA	"Response"	"ddt"	1970000	15500	1163646985
+1910	NA	"Response"	"ddt"	2030000	15600	1199425780
+1911	NA	"Response"	"ddt"	2080000	15800	1213366639
+1912	NA	"Response"	"ddt"	2070000	15800	1264175253
+1913	NA	"Response"	"ddt"	2200000	16000	1214795822
+1914	NA	"Response"	"ddt"	2170000	15900	1198107731
+1915	NA	"Response"	"ddt"	2150000	15700	1081251326
+1916	NA	"Response"	"ddt"	2100000	15500	1074223491
+1917	NA	"Response"	"ddt"	2030000	15600	1075128817
+1918	NA	"Response"	"ddt"	1980000	15500	946405350
+1919	NA	"Response"	"ddt"	2220000	15600	994808751
+1920	NA	"Response"	"ddt"	2100000	16600	1256124888
+1921	NA	"Response"	"ddt"	2100000	17700	1088874543
+1922	NA	"Response"	"ddt"	2290000	17700	1271086291
+1923	NA	"Response"	"ddt"	2180000	17600	999909141
+1924	NA	"Response"	"ddt"	2080000	18200	907305979
+1925	NA	"Response"	"ddt"	2250000	19000	926904801
+1926	NA	"Response"	"ddt"	2360000	19300	932518326
+1927	NA	"Response"	"ddt"	2520000	18400	1035837121
+1928	NA	"Response"	"ddt"	2550000	20300	1013773976
+1929	NA	"Response"	"ddt"	2590000	19100	980364917
+1930	NA	"Response"	"ddt"	2450000	19300	1049352798
+1931	NA	"Response"	"ddt"	2590000	19300	1013724606
+1932	NA	"Response"	"ddt"	2390000	20100	895315798
+1933	NA	"Response"	"ddt"	2340000	20500	804522115
+1934	NA	"Response"	"ddt"	2530000	20000	853224221
+1935	NA	"Response"	"ddt"	2540000	23100	971830620
+1936	NA	"Response"	"ddt"	2680000	24800	993320338
+1937	NA	"Response"	"ddt"	2480000	26800	1018146643
+1938	NA	"Response"	"ddt"	2390000	27500	1023791551
+1939	NA	"Response"	"ddt"	2490000	29700	1022392170
+1940	NA	"Response"	"ddt"	2780000	30600	967096233
+1941	NA	"Response"	"ddt"	2910000	27500	904688774
+1942	NA	"Response"	"ddt"	2510000	28000	902938239
+1943	NA	"Response"	"ddt"	2400000	22800	786554945
+1944	NA	"Response"	"ddt"	2290000	20900	709200138
+1945	NA	"Response"	"ddt"	2220000	23500	804136036
+1946	NA	"Response"	"ddt"	2350000	26800	1056582202
+1947	NA	"Response"	"ddt"	2370000	37400	1268248203
+1948	NA	"Response"	"ddt"	2640000	28300	1318184735
+1949	NA	"Response"	"ddt"	2840000	32200	1435313670
+1950	NA	"Response"	"ddt"	2800000	43700	1483665211
+1951	NA	"Response"	"ddt"	2740000	44800	1421682778
+1952	NA	"Response"	"ddt"	2950000	54500	1483448222
+1953	NA	"Response"	"ddt"	2970000	53000	1425536202
+1954	NA	"Response"	"ddt"	2900000	48000	1470743400
+1955	NA	"Response"	"ddt"	3200000	40100	1550876393
+1956	NA	"Response"	"ddt"	3310000	42000	1612180407
+1957	NA	"Response"	"ddt"	3470000	48100	1713740076
+1958	NA	"Response"	"ddt"	3440000	52800	1786783468
+1959	NA	"Response"	"ddt"	3340000	64600	1826583891
+1960	NA	"Response"	"ddt"	3780000	77200	2161946184
+1961	NA	"Response"	"ddt"	3820000	84500	2304135930
+1962	NA	"Response"	"ddt"	3750000	101000	2501301402
+1963	NA	"Response"	"ddt"	3730000	113000	2633879065
+1964	NA	"Response"	"ddt"	3810000	120000	2452549636
+1965	NA	"Response"	"ddt"	3690000	104000	2829809493
+1966	NA	"Response"	"ddt"	3650000	79000	2911802327
+1967	NA	"Response"	"ddt"	3770000	63400	3106860688
+1968	NA	"Response"	"ddt"	4040000	60200	3330546737
+1969	NA	"Response"	"ddt"	3890000	59500	3129567589
+1970	19000	"Response"	"ddt"	3820000	55800	3232293798
+1971	13000	"Response"	"ddt"	3950000	65900	3053767186
+1972	11500	"Response"	"ddt"	4050000	53400	3114971448
+1973	9500	"Response"	"ddt"	4090000	50700	3020839945
+1974	8000	"Response"	"ddt"	3980000	52600	2941503415
+1975	7000	"Response"	"ddt"	3720000	53600	3010625478
+1976	5500	"Response"	"ddt"	3820000	51200	3105793102
+1977	6000	"Response"	"ddt"	3880000	50400	3120159031
+1978	4000	"Response"	"ddt"	4230000	51600	3115743638
+1979	6500	"Response"	"ddt"	4510000	53500	3263010248
+1980	4000	"Response"	"ddt"	4490000	53300	3254366520
+1981	3000	"Response"	"ddt"	4790000	55300	3133047109
+1982	2500	"Response"	"ddt"	4630000	49900	3284501847
+1983	NA	"Response"	"ddt"	4760000	56400	3420324148
+1984	2000	"Response"	"ddt"	5190000	58900	3675372571
+1985	NA	"Response"	"ddt"	5640000	61300	3690136367
+1986	1500	"Response"	"ddt"	6180000	62800	3858414258
+1987	NA	"Response"	"ddt"	4830000	63200	3911960641
+1988	1800	"Response"	"ddt"	4940000	66400	4080580336
+1989	NA	"Response"	"ddt"	5130000	71000	4205870329
+1990	1800	"Response"	"ddt"	5360000	75300	4564250434
+1991	NA	"Response"	"ddt"	6550000	76800	4381722431
+1992	1600	"Response"	"ddt"	6770000	80400	4717902147
+1993	NA	"Response"	"ddt"	6740000	86200	4743032944
+1994	1900	"Response"	"ddt"	6660000	95000	5103607036
+1995	NA	"Response"	"ddt"	6380000	95500	5411660513
+1996	1600	"Response"	"ddt"	6600000	102000	5935362941
+1997	NA	"Response"	"ddt"	6630000	106000	6073782805
+1998	1600	"Response"	"ddt"	7240000	118000	6502935387
+1999	NA	"Response"	"ddt"	8000000	120000	6894574035
+2000	1500	"Response"	"ddt"	8250000	133000	8184220292
+2001	NA	"Response"	"ddt"	8290000	140000	8588230334
+2002	1600	"Response"	"ddt"	9680000	145000	9697143330
+2003	NA	"Response"	"ddt"	13800000	150000	10962631655
+2004	1400	"Response"	"ddt"	17300000	154000	11949550089
+2005	NA	"Response"	"ddt"	21500000	156000	11337444519
+2006	NA	"Response"	"ddt"	23100000	160000	11875460179
+2007	NA	"Response"	"ddt"	27000000	160000	12552104939
+2008	NA	"Response"	"ddt"	77900000	146000	13598879452
+1900	0	"Web of Science"	"ddt"	1540000	15800	1194673434
+1901	0	"Web of Science"	"ddt"	1460000	13100	1202913367
+1902	0	"Web of Science"	"ddt"	1650000	13800	1212110601
+1903	0	"Web of Science"	"ddt"	1670000	14100	1201034192
+1904	0	"Web of Science"	"ddt"	1680000	14100	1317638262
+1905	0	"Web of Science"	"ddt"	1600000	14400	1296062576
+1906	0	"Web of Science"	"ddt"	1730000	14800	1285110265
+1907	0	"Web of Science"	"ddt"	1900000	15000	1316581524
+1908	0	"Web of Science"	"ddt"	1890000	15400	1315037632
+1909	0	"Web of Science"	"ddt"	1970000	15500	1163646985
+1910	0	"Web of Science"	"ddt"	2030000	15600	1199425780
+1911	0	"Web of Science"	"ddt"	2080000	15800	1213366639
+1912	0	"Web of Science"	"ddt"	2070000	15800	1264175253
+1913	0	"Web of Science"	"ddt"	2200000	16000	1214795822
+1914	0	"Web of Science"	"ddt"	2170000	15900	1198107731
+1915	0	"Web of Science"	"ddt"	2150000	15700	1081251326
+1916	0	"Web of Science"	"ddt"	2100000	15500	1074223491
+1917	0	"Web of Science"	"ddt"	2030000	15600	1075128817
+1918	0	"Web of Science"	"ddt"	1980000	15500	946405350
+1919	0	"Web of Science"	"ddt"	2220000	15600	994808751
+1920	0	"Web of Science"	"ddt"	2100000	16600	1256124888
+1921	0	"Web of Science"	"ddt"	2100000	17700	1088874543
+1922	0	"Web of Science"	"ddt"	2290000	17700	1271086291
+1923	0	"Web of Science"	"ddt"	2180000	17600	999909141
+1924	0	"Web of Science"	"ddt"	2080000	18200	907305979
+1925	0	"Web of Science"	"ddt"	2250000	19000	926904801
+1926	0	"Web of Science"	"ddt"	2360000	19300	932518326
+1927	0	"Web of Science"	"ddt"	2520000	18400	1035837121
+1928	0	"Web of Science"	"ddt"	2550000	20300	1013773976
+1929	0	"Web of Science"	"ddt"	2590000	19100	980364917
+1930	0	"Web of Science"	"ddt"	2450000	19300	1049352798
+1931	0	"Web of Science"	"ddt"	2590000	19300	1013724606
+1932	0	"Web of Science"	"ddt"	2390000	20100	895315798
+1933	0	"Web of Science"	"ddt"	2340000	20500	804522115
+1934	0	"Web of Science"	"ddt"	2530000	20000	853224221
+1935	0	"Web of Science"	"ddt"	2540000	23100	971830620
+1936	0	"Web of Science"	"ddt"	2680000	24800	993320338
+1937	0	"Web of Science"	"ddt"	2480000	26800	1018146643
+1938	0	"Web of Science"	"ddt"	2390000	27500	1023791551
+1939	0	"Web of Science"	"ddt"	2490000	29700	1022392170
+1940	0	"Web of Science"	"ddt"	2780000	30600	967096233
+1941	0	"Web of Science"	"ddt"	2910000	27500	904688774
+1942	0	"Web of Science"	"ddt"	2510000	28000	902938239
+1943	0	"Web of Science"	"ddt"	2400000	22800	786554945
+1944	46	"Web of Science"	"ddt"	2290000	20900	709200138
+1945	104	"Web of Science"	"ddt"	2220000	23500	804136036
+1946	147	"Web of Science"	"ddt"	2350000	26800	1056582202
+1947	116	"Web of Science"	"ddt"	2370000	37400	1268248203
+1948	106	"Web of Science"	"ddt"	2640000	28300	1318184735
+1949	75	"Web of Science"	"ddt"	2840000	32200	1435313670
+1950	52	"Web of Science"	"ddt"	2800000	43700	1483665211
+1951	48	"Web of Science"	"ddt"	2740000	44800	1421682778
+1952	52	"Web of Science"	"ddt"	2950000	54500	1483448222
+1953	42	"Web of Science"	"ddt"	2970000	53000	1425536202
+1954	33	"Web of Science"	"ddt"	2900000	48000	1470743400
+1955	22	"Web of Science"	"ddt"	3200000	40100	1550876393
+1956	31	"Web of Science"	"ddt"	3310000	42000	1612180407
+1957	17	"Web of Science"	"ddt"	3470000	48100	1713740076
+1958	21	"Web of Science"	"ddt"	3440000	52800	1786783468
+1959	20	"Web of Science"	"ddt"	3340000	64600	1826583891
+1960	34	"Web of Science"	"ddt"	3780000	77200	2161946184
+1961	42	"Web of Science"	"ddt"	3820000	84500	2304135930
+1962	38	"Web of Science"	"ddt"	3750000	101000	2501301402
+1963	45	"Web of Science"	"ddt"	3730000	113000	2633879065
+1964	51	"Web of Science"	"ddt"	3810000	120000	2452549636
+1965	45	"Web of Science"	"ddt"	3690000	104000	2829809493
+1966	55	"Web of Science"	"ddt"	3650000	79000	2911802327
+1967	65	"Web of Science"	"ddt"	3770000	63400	3106860688
+1968	86	"Web of Science"	"ddt"	4040000	60200	3330546737
+1969	105	"Web of Science"	"ddt"	3890000	59500	3129567589
+1970	133	"Web of Science"	"ddt"	3820000	55800	3232293798
+1971	132	"Web of Science"	"ddt"	3950000	65900	3053767186
+1972	142	"Web of Science"	"ddt"	4050000	53400	3114971448
+1973	94	"Web of Science"	"ddt"	4090000	50700	3020839945
+1974	123	"Web of Science"	"ddt"	3980000	52600	2941503415
+1975	100	"Web of Science"	"ddt"	3720000	53600	3010625478
+1976	70	"Web of Science"	"ddt"	3820000	51200	3105793102
+1977	91	"Web of Science"	"ddt"	3880000	50400	3120159031
+1978	85	"Web of Science"	"ddt"	4230000	51600	3115743638
+1979	78	"Web of Science"	"ddt"	4510000	53500	3263010248
+1980	56	"Web of Science"	"ddt"	4490000	53300	3254366520
+1981	82	"Web of Science"	"ddt"	4790000	55300	3133047109
+1982	67	"Web of Science"	"ddt"	4630000	49900	3284501847
+1983	62	"Web of Science"	"ddt"	4760000	56400	3420324148
+1984	51	"Web of Science"	"ddt"	5190000	58900	3675372571
+1985	65	"Web of Science"	"ddt"	5640000	61300	3690136367
+1986	48	"Web of Science"	"ddt"	6180000	62800	3858414258
+1987	58	"Web of Science"	"ddt"	4830000	63200	3911960641
+1988	37	"Web of Science"	"ddt"	4940000	66400	4080580336
+1989	54	"Web of Science"	"ddt"	5130000	71000	4205870329
+1990	39	"Web of Science"	"ddt"	5360000	75300	4564250434
+1991	31	"Web of Science"	"ddt"	6550000	76800	4381722431
+1992	37	"Web of Science"	"ddt"	6770000	80400	4717902147
+1993	33	"Web of Science"	"ddt"	6740000	86200	4743032944
+1994	67	"Web of Science"	"ddt"	6660000	95000	5103607036
+1995	37	"Web of Science"	"ddt"	6380000	95500	5411660513
+1996	38	"Web of Science"	"ddt"	6600000	102000	5935362941
+1997	43	"Web of Science"	"ddt"	6630000	106000	6073782805
+1998	34	"Web of Science"	"ddt"	7240000	118000	6502935387
+1999	34	"Web of Science"	"ddt"	8000000	120000	6894574035
+2000	43	"Web of Science"	"ddt"	8250000	133000	8184220292
+2001	47	"Web of Science"	"ddt"	8290000	140000	8588230334
+2002	44	"Web of Science"	"ddt"	9680000	145000	9697143330
+2003	47	"Web of Science"	"ddt"	13800000	150000	10962631655
+2004	56	"Web of Science"	"ddt"	17300000	154000	11949550089
+2005	53	"Web of Science"	"ddt"	21500000	156000	11337444519
+2006	67	"Web of Science"	"ddt"	23100000	160000	11875460179
+2007	58	"Web of Science"	"ddt"	27000000	160000	12552104939
+2008	72	"Web of Science"	"ddt"	77900000	146000	13598879452
+1824	3	"Google Books"	"ivory"	NA	NA	252703638
+1836	2	"Google Books"	"ivory"	NA	NA	319570436
+1837	2	"Google Books"	"ivory"	NA	NA	290636717
+1839	2	"Google Books"	"ivory"	NA	NA	362704149
+1854	2	"Google Books"	"ivory"	NA	NA	590302292
+1856	10	"Google Books"	"ivory"	NA	NA	544114648
+1857	4	"Google Books"	"ivory"	NA	NA	501301715
+1861	4	"Google Books"	"ivory"	NA	NA	386434758
+1862	2	"Google Books"	"ivory"	NA	NA	359348504
+1863	4	"Google Books"	"ivory"	NA	NA	349935241
+1866	1	"Google Books"	"ivory"	NA	NA	458351955
+1867	3	"Google Books"	"ivory"	NA	NA	450242417
+1868	9	"Google Books"	"ivory"	NA	NA	454334293
+1869	1	"Google Books"	"ivory"	NA	NA	500425460
+1870	2	"Google Books"	"ivory"	NA	NA	451706276
+1871	7	"Google Books"	"ivory"	NA	NA	488849680
+1872	7	"Google Books"	"ivory"	NA	NA	503182681
+1873	4	"Google Books"	"ivory"	NA	NA	520267515
+1874	1	"Google Books"	"ivory"	NA	NA	575300907
+1875	7	"Google Books"	"ivory"	NA	NA	601244572
+1876	11	"Google Books"	"ivory"	NA	NA	601999071
+1877	4	"Google Books"	"ivory"	NA	NA	574104027
+1878	4	"Google Books"	"ivory"	NA	NA	538814915
+1880	4	"Google Books"	"ivory"	NA	NA	684000330
+1881	1	"Google Books"	"ivory"	NA	NA	687759451
+1882	3	"Google Books"	"ivory"	NA	NA	725802405
+1883	4	"Google Books"	"ivory"	NA	NA	829235251
+1884	6	"Google Books"	"ivory"	NA	NA	782538781
+1885	4	"Google Books"	"ivory"	NA	NA	769081451
+1886	6	"Google Books"	"ivory"	NA	NA	703449764
+1887	1	"Google Books"	"ivory"	NA	NA	767504871
+1888	1	"Google Books"	"ivory"	NA	NA	774619944
+1890	2	"Google Books"	"ivory"	NA	NA	757961420
+1891	6	"Google Books"	"ivory"	NA	NA	804904443
+1892	13	"Google Books"	"ivory"	NA	NA	905321229
+1893	1	"Google Books"	"ivory"	NA	NA	844690512
+1894	23	"Google Books"	"ivory"	NA	NA	838387285
+1895	4	"Google Books"	"ivory"	NA	NA	903394937
+1896	2	"Google Books"	"ivory"	NA	NA	966235908
+1897	5	"Google Books"	"ivory"	NA	NA	950528418
+1898	1	"Google Books"	"ivory"	NA	NA	1010935409
+1899	18	"Google Books"	"ivory"	NA	NA	1146173920
+1900	5	"Google Books"	"ivory"	1540000	15800	1194673434
+1901	4	"Google Books"	"ivory"	1460000	13100	1202913367
+1902	2	"Google Books"	"ivory"	1650000	13800	1212110601
+1903	14	"Google Books"	"ivory"	1670000	14100	1201034192
+1904	4	"Google Books"	"ivory"	1680000	14100	1317638262
+1905	12	"Google Books"	"ivory"	1600000	14400	1296062576
+1906	3	"Google Books"	"ivory"	1730000	14800	1285110265
+1907	18	"Google Books"	"ivory"	1900000	15000	1316581524
+1908	1	"Google Books"	"ivory"	1890000	15400	1315037632
+1909	1	"Google Books"	"ivory"	1970000	15500	1163646985
+1910	8	"Google Books"	"ivory"	2030000	15600	1199425780
+1911	8	"Google Books"	"ivory"	2080000	15800	1213366639
+1912	8	"Google Books"	"ivory"	2070000	15800	1264175253
+1913	13	"Google Books"	"ivory"	2200000	16000	1214795822
+1914	4	"Google Books"	"ivory"	2170000	15900	1198107731
+1915	4	"Google Books"	"ivory"	2150000	15700	1081251326
+1916	63	"Google Books"	"ivory"	2100000	15500	1074223491
+1917	3	"Google Books"	"ivory"	2030000	15600	1075128817
+1918	1	"Google Books"	"ivory"	1980000	15500	946405350
+1919	2	"Google Books"	"ivory"	2220000	15600	994808751
+1920	3	"Google Books"	"ivory"	2100000	16600	1256124888
+1921	5	"Google Books"	"ivory"	2100000	17700	1088874543
+1922	3	"Google Books"	"ivory"	2290000	17700	1271086291
+1923	8	"Google Books"	"ivory"	2180000	17600	999909141
+1924	5	"Google Books"	"ivory"	2080000	18200	907305979
+1925	6	"Google Books"	"ivory"	2250000	19000	926904801
+1926	5	"Google Books"	"ivory"	2360000	19300	932518326
+1927	13	"Google Books"	"ivory"	2520000	18400	1035837121
+1929	3	"Google Books"	"ivory"	2590000	19100	980364917
+1930	13	"Google Books"	"ivory"	2450000	19300	1049352798
+1931	11	"Google Books"	"ivory"	2590000	19300	1013724606
+1932	17	"Google Books"	"ivory"	2390000	20100	895315798
+1933	5	"Google Books"	"ivory"	2340000	20500	804522115
+1934	3	"Google Books"	"ivory"	2530000	20000	853224221
+1935	3	"Google Books"	"ivory"	2540000	23100	971830620
+1936	11	"Google Books"	"ivory"	2680000	24800	993320338
+1937	8	"Google Books"	"ivory"	2480000	26800	1018146643
+1938	15	"Google Books"	"ivory"	2390000	27500	1023791551
+1939	7	"Google Books"	"ivory"	2490000	29700	1022392170
+1940	8	"Google Books"	"ivory"	2780000	30600	967096233
+1941	6	"Google Books"	"ivory"	2910000	27500	904688774
+1942	4	"Google Books"	"ivory"	2510000	28000	902938239
+1943	9	"Google Books"	"ivory"	2400000	22800	786554945
+1944	2	"Google Books"	"ivory"	2290000	20900	709200138
+1945	6	"Google Books"	"ivory"	2220000	23500	804136036
+1946	11	"Google Books"	"ivory"	2350000	26800	1056582202
+1947	7	"Google Books"	"ivory"	2370000	37400	1268248203
+1948	10	"Google Books"	"ivory"	2640000	28300	1318184735
+1949	3	"Google Books"	"ivory"	2840000	32200	1435313670
+1950	10	"Google Books"	"ivory"	2800000	43700	1483665211
+1951	5	"Google Books"	"ivory"	2740000	44800	1421682778
+1952	53	"Google Books"	"ivory"	2950000	54500	1483448222
+1953	26	"Google Books"	"ivory"	2970000	53000	1425536202
+1954	17	"Google Books"	"ivory"	2900000	48000	1470743400
+1955	10	"Google Books"	"ivory"	3200000	40100	1550876393
+1956	9	"Google Books"	"ivory"	3310000	42000	1612180407
+1957	5	"Google Books"	"ivory"	3470000	48100	1713740076
+1958	9	"Google Books"	"ivory"	3440000	52800	1786783468
+1959	13	"Google Books"	"ivory"	3340000	64600	1826583891
+1960	3	"Google Books"	"ivory"	3780000	77200	2161946184
+1961	35	"Google Books"	"ivory"	3820000	84500	2304135930
+1962	35	"Google Books"	"ivory"	3750000	101000	2501301402
+1963	7	"Google Books"	"ivory"	3730000	113000	2633879065
+1964	14	"Google Books"	"ivory"	3810000	120000	2452549636
+1965	15	"Google Books"	"ivory"	3690000	104000	2829809493
+1966	20	"Google Books"	"ivory"	3650000	79000	2911802327
+1967	33	"Google Books"	"ivory"	3770000	63400	3106860688
+1968	13	"Google Books"	"ivory"	4040000	60200	3330546737
+1969	16	"Google Books"	"ivory"	3890000	59500	3129567589
+1970	24	"Google Books"	"ivory"	3820000	55800	3232293798
+1971	10	"Google Books"	"ivory"	3950000	65900	3053767186
+1972	17	"Google Books"	"ivory"	4050000	53400	3114971448
+1973	25	"Google Books"	"ivory"	4090000	50700	3020839945
+1974	12	"Google Books"	"ivory"	3980000	52600	2941503415
+1975	30	"Google Books"	"ivory"	3720000	53600	3010625478
+1976	29	"Google Books"	"ivory"	3820000	51200	3105793102
+1977	7	"Google Books"	"ivory"	3880000	50400	3120159031
+1978	21	"Google Books"	"ivory"	4230000	51600	3115743638
+1979	23	"Google Books"	"ivory"	4510000	53500	3263010248
+1980	15	"Google Books"	"ivory"	4490000	53300	3254366520
+1981	24	"Google Books"	"ivory"	4790000	55300	3133047109
+1982	19	"Google Books"	"ivory"	4630000	49900	3284501847
+1983	20	"Google Books"	"ivory"	4760000	56400	3420324148
+1984	42	"Google Books"	"ivory"	5190000	58900	3675372571
+1985	56	"Google Books"	"ivory"	5640000	61300	3690136367
+1986	25	"Google Books"	"ivory"	6180000	62800	3858414258
+1987	43	"Google Books"	"ivory"	4830000	63200	3911960641
+1988	42	"Google Books"	"ivory"	4940000	66400	4080580336
+1989	43	"Google Books"	"ivory"	5130000	71000	4205870329
+1990	341	"Google Books"	"ivory"	5360000	75300	4564250434
+1991	82	"Google Books"	"ivory"	6550000	76800	4381722431
+1992	97	"Google Books"	"ivory"	6770000	80400	4717902147
+1993	83	"Google Books"	"ivory"	6740000	86200	4743032944
+1994	78	"Google Books"	"ivory"	6660000	95000	5103607036
+1995	72	"Google Books"	"ivory"	6380000	95500	5411660513
+1996	126	"Google Books"	"ivory"	6600000	102000	5935362941
+1997	94	"Google Books"	"ivory"	6630000	106000	6073782805
+1998	140	"Google Books"	"ivory"	7240000	118000	6502935387
+1999	150	"Google Books"	"ivory"	8000000	120000	6894574035
+2000	252	"Google Books"	"ivory"	8250000	133000	8184220292
+2001	133	"Google Books"	"ivory"	8290000	140000	8588230334
+2002	144	"Google Books"	"ivory"	9680000	145000	9697143330
+2003	162	"Google Books"	"ivory"	13800000	150000	10962631655
+2004	160	"Google Books"	"ivory"	17300000	154000	11949550089
+2005	326	"Google Books"	"ivory"	21500000	156000	11337444519
+2006	206	"Google Books"	"ivory"	23100000	160000	11875460179
+2007	147	"Google Books"	"ivory"	27000000	160000	12552104939
+2008	101	"Google Books"	"ivory"	77900000	146000	13598879452
+1900	10	"Google News Archive"	"ivory"	1540000	15800	1194673434
+1901	6	"Google News Archive"	"ivory"	1460000	13100	1202913367
+1902	2	"Google News Archive"	"ivory"	1650000	13800	1212110601
+1903	0	"Google News Archive"	"ivory"	1670000	14100	1201034192
+1904	5	"Google News Archive"	"ivory"	1680000	14100	1317638262
+1905	2	"Google News Archive"	"ivory"	1600000	14400	1296062576
+1906	5	"Google News Archive"	"ivory"	1730000	14800	1285110265
+1907	0	"Google News Archive"	"ivory"	1900000	15000	1316581524
+1908	7	"Google News Archive"	"ivory"	1890000	15400	1315037632
+1909	7	"Google News Archive"	"ivory"	1970000	15500	1163646985
+1910	3	"Google News Archive"	"ivory"	2030000	15600	1199425780
+1911	1	"Google News Archive"	"ivory"	2080000	15800	1213366639
+1912	2	"Google News Archive"	"ivory"	2070000	15800	1264175253
+1913	7	"Google News Archive"	"ivory"	2200000	16000	1214795822
+1914	5	"Google News Archive"	"ivory"	2170000	15900	1198107731
+1915	8	"Google News Archive"	"ivory"	2150000	15700	1081251326
+1916	7	"Google News Archive"	"ivory"	2100000	15500	1074223491
+1917	5	"Google News Archive"	"ivory"	2030000	15600	1075128817
+1918	1	"Google News Archive"	"ivory"	1980000	15500	946405350
+1919	0	"Google News Archive"	"ivory"	2220000	15600	994808751
+1920	3	"Google News Archive"	"ivory"	2100000	16600	1256124888
+1921	1	"Google News Archive"	"ivory"	2100000	17700	1088874543
+1922	3	"Google News Archive"	"ivory"	2290000	17700	1271086291
+1923	3	"Google News Archive"	"ivory"	2180000	17600	999909141
+1924	4	"Google News Archive"	"ivory"	2080000	18200	907305979
+1925	3	"Google News Archive"	"ivory"	2250000	19000	926904801
+1926	2	"Google News Archive"	"ivory"	2360000	19300	932518326
+1927	1	"Google News Archive"	"ivory"	2520000	18400	1035837121
+1928	3	"Google News Archive"	"ivory"	2550000	20300	1013773976
+1929	2	"Google News Archive"	"ivory"	2590000	19100	980364917
+1930	5	"Google News Archive"	"ivory"	2450000	19300	1049352798
+1931	0	"Google News Archive"	"ivory"	2590000	19300	1013724606
+1932	4	"Google News Archive"	"ivory"	2390000	20100	895315798
+1933	4	"Google News Archive"	"ivory"	2340000	20500	804522115
+1934	3	"Google News Archive"	"ivory"	2530000	20000	853224221
+1935	5	"Google News Archive"	"ivory"	2540000	23100	971830620
+1936	3	"Google News Archive"	"ivory"	2680000	24800	993320338
+1937	2	"Google News Archive"	"ivory"	2480000	26800	1018146643
+1938	0	"Google News Archive"	"ivory"	2390000	27500	1023791551
+1939	1	"Google News Archive"	"ivory"	2490000	29700	1022392170
+1940	1	"Google News Archive"	"ivory"	2780000	30600	967096233
+1941	0	"Google News Archive"	"ivory"	2910000	27500	904688774
+1942	1	"Google News Archive"	"ivory"	2510000	28000	902938239
+1943	4	"Google News Archive"	"ivory"	2400000	22800	786554945
+1944	1	"Google News Archive"	"ivory"	2290000	20900	709200138
+1945	1	"Google News Archive"	"ivory"	2220000	23500	804136036
+1946	2	"Google News Archive"	"ivory"	2350000	26800	1056582202
+1947	1	"Google News Archive"	"ivory"	2370000	37400	1268248203
+1948	3	"Google News Archive"	"ivory"	2640000	28300	1318184735
+1949	1	"Google News Archive"	"ivory"	2840000	32200	1435313670
+1950	0	"Google News Archive"	"ivory"	2800000	43700	1483665211
+1951	1	"Google News Archive"	"ivory"	2740000	44800	1421682778
+1952	3	"Google News Archive"	"ivory"	2950000	54500	1483448222
+1953	0	"Google News Archive"	"ivory"	2970000	53000	1425536202
+1954	2	"Google News Archive"	"ivory"	2900000	48000	1470743400
+1955	4	"Google News Archive"	"ivory"	3200000	40100	1550876393
+1956	4	"Google News Archive"	"ivory"	3310000	42000	1612180407
+1957	3	"Google News Archive"	"ivory"	3470000	48100	1713740076
+1958	1	"Google News Archive"	"ivory"	3440000	52800	1786783468
+1959	1	"Google News Archive"	"ivory"	3340000	64600	1826583891
+1960	4	"Google News Archive"	"ivory"	3780000	77200	2161946184
+1961	3	"Google News Archive"	"ivory"	3820000	84500	2304135930
+1962	3	"Google News Archive"	"ivory"	3750000	101000	2501301402
+1963	2	"Google News Archive"	"ivory"	3730000	113000	2633879065
+1964	1	"Google News Archive"	"ivory"	3810000	120000	2452549636
+1965	3	"Google News Archive"	"ivory"	3690000	104000	2829809493
+1966	7	"Google News Archive"	"ivory"	3650000	79000	2911802327
+1967	1	"Google News Archive"	"ivory"	3770000	63400	3106860688
+1968	5	"Google News Archive"	"ivory"	4040000	60200	3330546737
+1969	0	"Google News Archive"	"ivory"	3890000	59500	3129567589
+1970	2	"Google News Archive"	"ivory"	3820000	55800	3232293798
+1971	9	"Google News Archive"	"ivory"	3950000	65900	3053767186
+1972	5	"Google News Archive"	"ivory"	4050000	53400	3114971448
+1973	12	"Google News Archive"	"ivory"	4090000	50700	3020839945
+1974	9	"Google News Archive"	"ivory"	3980000	52600	2941503415
+1975	12	"Google News Archive"	"ivory"	3720000	53600	3010625478
+1976	6	"Google News Archive"	"ivory"	3820000	51200	3105793102
+1977	7	"Google News Archive"	"ivory"	3880000	50400	3120159031
+1978	11	"Google News Archive"	"ivory"	4230000	51600	3115743638
+1979	27	"Google News Archive"	"ivory"	4510000	53500	3263010248
+1980	18	"Google News Archive"	"ivory"	4490000	53300	3254366520
+1981	12	"Google News Archive"	"ivory"	4790000	55300	3133047109
+1982	17	"Google News Archive"	"ivory"	4630000	49900	3284501847
+1983	13	"Google News Archive"	"ivory"	4760000	56400	3420324148
+1984	24	"Google News Archive"	"ivory"	5190000	58900	3675372571
+1985	10	"Google News Archive"	"ivory"	5640000	61300	3690136367
+1986	15	"Google News Archive"	"ivory"	6180000	62800	3858414258
+1987	18	"Google News Archive"	"ivory"	4830000	63200	3911960641
+1988	24	"Google News Archive"	"ivory"	4940000	66400	4080580336
+1989	111	"Google News Archive"	"ivory"	5130000	71000	4205870329
+1990	47	"Google News Archive"	"ivory"	5360000	75300	4564250434
+1991	45	"Google News Archive"	"ivory"	6550000	76800	4381722431
+1992	51	"Google News Archive"	"ivory"	6770000	80400	4717902147
+1993	30	"Google News Archive"	"ivory"	6740000	86200	4743032944
+1994	36	"Google News Archive"	"ivory"	6660000	95000	5103607036
+1995	23	"Google News Archive"	"ivory"	6380000	95500	5411660513
+1996	16	"Google News Archive"	"ivory"	6600000	102000	5935362941
+1997	56	"Google News Archive"	"ivory"	6630000	106000	6073782805
+1998	22	"Google News Archive"	"ivory"	7240000	118000	6502935387
+1999	50	"Google News Archive"	"ivory"	8000000	120000	6894574035
+2000	63	"Google News Archive"	"ivory"	8250000	133000	8184220292
+2001	19	"Google News Archive"	"ivory"	8290000	140000	8588230334
+2002	80	"Google News Archive"	"ivory"	9680000	145000	9697143330
+2003	46	"Google News Archive"	"ivory"	13800000	150000	10962631655
+2004	55	"Google News Archive"	"ivory"	17300000	154000	11949550089
+2005	48	"Google News Archive"	"ivory"	21500000	156000	11337444519
+2006	64	"Google News Archive"	"ivory"	23100000	160000	11875460179
+2007	118	"Google News Archive"	"ivory"	27000000	160000	12552104939
+2008	115	"Google News Archive"	"ivory"	77900000	146000	13598879452
+1900	NA	"Response"	"ivory"	1540000	15800	1194673434
+1901	NA	"Response"	"ivory"	1460000	13100	1202913367
+1902	NA	"Response"	"ivory"	1650000	13800	1212110601
+1903	NA	"Response"	"ivory"	1670000	14100	1201034192
+1904	NA	"Response"	"ivory"	1680000	14100	1317638262
+1905	NA	"Response"	"ivory"	1600000	14400	1296062576
+1906	NA	"Response"	"ivory"	1730000	14800	1285110265
+1907	NA	"Response"	"ivory"	1900000	15000	1316581524
+1908	NA	"Response"	"ivory"	1890000	15400	1315037632
+1909	NA	"Response"	"ivory"	1970000	15500	1163646985
+1910	NA	"Response"	"ivory"	2030000	15600	1199425780
+1911	NA	"Response"	"ivory"	2080000	15800	1213366639
+1912	NA	"Response"	"ivory"	2070000	15800	1264175253
+1913	NA	"Response"	"ivory"	2200000	16000	1214795822
+1914	NA	"Response"	"ivory"	2170000	15900	1198107731
+1915	NA	"Response"	"ivory"	2150000	15700	1081251326
+1916	NA	"Response"	"ivory"	2100000	15500	1074223491
+1917	NA	"Response"	"ivory"	2030000	15600	1075128817
+1918	NA	"Response"	"ivory"	1980000	15500	946405350
+1919	NA	"Response"	"ivory"	2220000	15600	994808751
+1920	NA	"Response"	"ivory"	2100000	16600	1256124888
+1921	NA	"Response"	"ivory"	2100000	17700	1088874543
+1922	NA	"Response"	"ivory"	2290000	17700	1271086291
+1923	NA	"Response"	"ivory"	2180000	17600	999909141
+1924	NA	"Response"	"ivory"	2080000	18200	907305979
+1925	NA	"Response"	"ivory"	2250000	19000	926904801
+1926	NA	"Response"	"ivory"	2360000	19300	932518326
+1927	NA	"Response"	"ivory"	2520000	18400	1035837121
+1928	NA	"Response"	"ivory"	2550000	20300	1013773976
+1929	NA	"Response"	"ivory"	2590000	19100	980364917
+1930	NA	"Response"	"ivory"	2450000	19300	1049352798
+1931	NA	"Response"	"ivory"	2590000	19300	1013724606
+1932	NA	"Response"	"ivory"	2390000	20100	895315798
+1933	NA	"Response"	"ivory"	2340000	20500	804522115
+1934	NA	"Response"	"ivory"	2530000	20000	853224221
+1935	NA	"Response"	"ivory"	2540000	23100	971830620
+1936	NA	"Response"	"ivory"	2680000	24800	993320338
+1937	NA	"Response"	"ivory"	2480000	26800	1018146643
+1938	NA	"Response"	"ivory"	2390000	27500	1023791551
+1939	NA	"Response"	"ivory"	2490000	29700	1022392170
+1940	NA	"Response"	"ivory"	2780000	30600	967096233
+1941	NA	"Response"	"ivory"	2910000	27500	904688774
+1942	NA	"Response"	"ivory"	2510000	28000	902938239
+1943	NA	"Response"	"ivory"	2400000	22800	786554945
+1944	NA	"Response"	"ivory"	2290000	20900	709200138
+1945	NA	"Response"	"ivory"	2220000	23500	804136036
+1946	NA	"Response"	"ivory"	2350000	26800	1056582202
+1947	NA	"Response"	"ivory"	2370000	37400	1268248203
+1948	NA	"Response"	"ivory"	2640000	28300	1318184735
+1949	NA	"Response"	"ivory"	2840000	32200	1435313670
+1950	NA	"Response"	"ivory"	2800000	43700	1483665211
+1951	NA	"Response"	"ivory"	2740000	44800	1421682778
+1952	NA	"Response"	"ivory"	2950000	54500	1483448222
+1953	NA	"Response"	"ivory"	2970000	53000	1425536202
+1954	NA	"Response"	"ivory"	2900000	48000	1470743400
+1955	NA	"Response"	"ivory"	3200000	40100	1550876393
+1956	NA	"Response"	"ivory"	3310000	42000	1612180407
+1957	NA	"Response"	"ivory"	3470000	48100	1713740076
+1958	NA	"Response"	"ivory"	3440000	52800	1786783468
+1959	NA	"Response"	"ivory"	3340000	64600	1826583891
+1960	NA	"Response"	"ivory"	3780000	77200	2161946184
+1961	NA	"Response"	"ivory"	3820000	84500	2304135930
+1962	NA	"Response"	"ivory"	3750000	101000	2501301402
+1963	NA	"Response"	"ivory"	3730000	113000	2633879065
+1964	NA	"Response"	"ivory"	3810000	120000	2452549636
+1965	NA	"Response"	"ivory"	3690000	104000	2829809493
+1966	NA	"Response"	"ivory"	3650000	79000	2911802327
+1967	NA	"Response"	"ivory"	3770000	63400	3106860688
+1968	NA	"Response"	"ivory"	4040000	60200	3330546737
+1969	NA	"Response"	"ivory"	3890000	59500	3129567589
+1970	NA	"Response"	"ivory"	3820000	55800	3232293798
+1971	NA	"Response"	"ivory"	3950000	65900	3053767186
+1972	NA	"Response"	"ivory"	4050000	53400	3114971448
+1973	NA	"Response"	"ivory"	4090000	50700	3020839945
+1974	NA	"Response"	"ivory"	3980000	52600	2941503415
+1975	NA	"Response"	"ivory"	3720000	53600	3010625478
+1976	NA	"Response"	"ivory"	3820000	51200	3105793102
+1977	NA	"Response"	"ivory"	3880000	50400	3120159031
+1978	NA	"Response"	"ivory"	4230000	51600	3115743638
+1979	39467	"Response"	"ivory"	4510000	53500	3263010248
+1980	NA	"Response"	"ivory"	4490000	53300	3254366520
+1981	NA	"Response"	"ivory"	4790000	55300	3133047109
+1982	NA	"Response"	"ivory"	4630000	49900	3284501847
+1983	NA	"Response"	"ivory"	4760000	56400	3420324148
+1984	NA	"Response"	"ivory"	5190000	58900	3675372571
+1985	NA	"Response"	"ivory"	5640000	61300	3690136367
+1986	NA	"Response"	"ivory"	6180000	62800	3858414258
+1987	NA	"Response"	"ivory"	4830000	63200	3911960641
+1988	NA	"Response"	"ivory"	4940000	66400	4080580336
+1989	17379	"Response"	"ivory"	5130000	71000	4205870329
+1990	NA	"Response"	"ivory"	5360000	75300	4564250434
+1991	NA	"Response"	"ivory"	6550000	76800	4381722431
+1992	NA	"Response"	"ivory"	6770000	80400	4717902147
+1993	NA	"Response"	"ivory"	6740000	86200	4743032944
+1994	NA	"Response"	"ivory"	6660000	95000	5103607036
+1995	NA	"Response"	"ivory"	6380000	95500	5411660513
+1996	NA	"Response"	"ivory"	6600000	102000	5935362941
+1997	NA	"Response"	"ivory"	6630000	106000	6073782805
+1998	NA	"Response"	"ivory"	7240000	118000	6502935387
+1999	NA	"Response"	"ivory"	8000000	120000	6894574035
+2000	NA	"Response"	"ivory"	8250000	133000	8184220292
+2001	NA	"Response"	"ivory"	8290000	140000	8588230334
+2002	NA	"Response"	"ivory"	9680000	145000	9697143330
+2003	NA	"Response"	"ivory"	13800000	150000	10962631655
+2004	NA	"Response"	"ivory"	17300000	154000	11949550089
+2005	NA	"Response"	"ivory"	21500000	156000	11337444519
+2006	NA	"Response"	"ivory"	23100000	160000	11875460179
+2007	21599	"Response"	"ivory"	27000000	160000	12552104939
+2008	NA	"Response"	"ivory"	77900000	146000	13598879452
+1900	0	"Web of Science"	"ivory"	1540000	15800	1194673434
+1901	0	"Web of Science"	"ivory"	1460000	13100	1202913367
+1902	0	"Web of Science"	"ivory"	1650000	13800	1212110601
+1903	0	"Web of Science"	"ivory"	1670000	14100	1201034192
+1904	0	"Web of Science"	"ivory"	1680000	14100	1317638262
+1905	0	"Web of Science"	"ivory"	1600000	14400	1296062576
+1906	0	"Web of Science"	"ivory"	1730000	14800	1285110265
+1907	5	"Web of Science"	"ivory"	1900000	15000	1316581524
+1908	0	"Web of Science"	"ivory"	1890000	15400	1315037632
+1909	1	"Web of Science"	"ivory"	1970000	15500	1163646985
+1910	0	"Web of Science"	"ivory"	2030000	15600	1199425780
+1911	0	"Web of Science"	"ivory"	2080000	15800	1213366639
+1912	0	"Web of Science"	"ivory"	2070000	15800	1264175253
+1913	0	"Web of Science"	"ivory"	2200000	16000	1214795822
+1914	0	"Web of Science"	"ivory"	2170000	15900	1198107731
+1915	0	"Web of Science"	"ivory"	2150000	15700	1081251326
+1916	1	"Web of Science"	"ivory"	2100000	15500	1074223491
+1917	0	"Web of Science"	"ivory"	2030000	15600	1075128817
+1918	0	"Web of Science"	"ivory"	1980000	15500	946405350
+1919	0	"Web of Science"	"ivory"	2220000	15600	994808751
+1920	0	"Web of Science"	"ivory"	2100000	16600	1256124888
+1921	0	"Web of Science"	"ivory"	2100000	17700	1088874543
+1922	0	"Web of Science"	"ivory"	2290000	17700	1271086291
+1923	0	"Web of Science"	"ivory"	2180000	17600	999909141
+1924	0	"Web of Science"	"ivory"	2080000	18200	907305979
+1925	1	"Web of Science"	"ivory"	2250000	19000	926904801
+1926	0	"Web of Science"	"ivory"	2360000	19300	932518326
+1927	0	"Web of Science"	"ivory"	2520000	18400	1035837121
+1928	0	"Web of Science"	"ivory"	2550000	20300	1013773976
+1929	0	"Web of Science"	"ivory"	2590000	19100	980364917
+1930	0	"Web of Science"	"ivory"	2450000	19300	1049352798
+1931	0	"Web of Science"	"ivory"	2590000	19300	1013724606
+1932	0	"Web of Science"	"ivory"	2390000	20100	895315798
+1933	0	"Web of Science"	"ivory"	2340000	20500	804522115
+1934	0	"Web of Science"	"ivory"	2530000	20000	853224221
+1935	0	"Web of Science"	"ivory"	2540000	23100	971830620
+1936	0	"Web of Science"	"ivory"	2680000	24800	993320338
+1937	0	"Web of Science"	"ivory"	2480000	26800	1018146643
+1938	0	"Web of Science"	"ivory"	2390000	27500	1023791551
+1939	0	"Web of Science"	"ivory"	2490000	29700	1022392170
+1940	0	"Web of Science"	"ivory"	2780000	30600	967096233
+1941	1	"Web of Science"	"ivory"	2910000	27500	904688774
+1942	0	"Web of Science"	"ivory"	2510000	28000	902938239
+1943	0	"Web of Science"	"ivory"	2400000	22800	786554945
+1944	0	"Web of Science"	"ivory"	2290000	20900	709200138
+1945	0	"Web of Science"	"ivory"	2220000	23500	804136036
+1946	0	"Web of Science"	"ivory"	2350000	26800	1056582202
+1947	2	"Web of Science"	"ivory"	2370000	37400	1268248203
+1948	0	"Web of Science"	"ivory"	2640000	28300	1318184735
+1949	0	"Web of Science"	"ivory"	2840000	32200	1435313670
+1950	0	"Web of Science"	"ivory"	2800000	43700	1483665211
+1951	1	"Web of Science"	"ivory"	2740000	44800	1421682778
+1952	0	"Web of Science"	"ivory"	2950000	54500	1483448222
+1953	1	"Web of Science"	"ivory"	2970000	53000	1425536202
+1954	1	"Web of Science"	"ivory"	2900000	48000	1470743400
+1955	1	"Web of Science"	"ivory"	3200000	40100	1550876393
+1956	0	"Web of Science"	"ivory"	3310000	42000	1612180407
+1957	0	"Web of Science"	"ivory"	3470000	48100	1713740076
+1958	0	"Web of Science"	"ivory"	3440000	52800	1786783468
+1959	0	"Web of Science"	"ivory"	3340000	64600	1826583891
+1960	0	"Web of Science"	"ivory"	3780000	77200	2161946184
+1961	0	"Web of Science"	"ivory"	3820000	84500	2304135930
+1962	0	"Web of Science"	"ivory"	3750000	101000	2501301402
+1963	1	"Web of Science"	"ivory"	3730000	113000	2633879065
+1964	2	"Web of Science"	"ivory"	3810000	120000	2452549636
+1965	1	"Web of Science"	"ivory"	3690000	104000	2829809493
+1966	4	"Web of Science"	"ivory"	3650000	79000	2911802327
+1967	9	"Web of Science"	"ivory"	3770000	63400	3106860688
+1968	4	"Web of Science"	"ivory"	4040000	60200	3330546737
+1969	3	"Web of Science"	"ivory"	3890000	59500	3129567589
+1970	3	"Web of Science"	"ivory"	3820000	55800	3232293798
+1971	1	"Web of Science"	"ivory"	3950000	65900	3053767186
+1972	4	"Web of Science"	"ivory"	4050000	53400	3114971448
+1973	5	"Web of Science"	"ivory"	4090000	50700	3020839945
+1974	1	"Web of Science"	"ivory"	3980000	52600	2941503415
+1975	2	"Web of Science"	"ivory"	3720000	53600	3010625478
+1976	3	"Web of Science"	"ivory"	3820000	51200	3105793102
+1977	3	"Web of Science"	"ivory"	3880000	50400	3120159031
+1978	4	"Web of Science"	"ivory"	4230000	51600	3115743638
+1979	7	"Web of Science"	"ivory"	4510000	53500	3263010248
+1980	6	"Web of Science"	"ivory"	4490000	53300	3254366520
+1981	5	"Web of Science"	"ivory"	4790000	55300	3133047109
+1982	3	"Web of Science"	"ivory"	4630000	49900	3284501847
+1983	8	"Web of Science"	"ivory"	4760000	56400	3420324148
+1984	4	"Web of Science"	"ivory"	5190000	58900	3675372571
+1985	2	"Web of Science"	"ivory"	5640000	61300	3690136367
+1986	5	"Web of Science"	"ivory"	6180000	62800	3858414258
+1987	3	"Web of Science"	"ivory"	4830000	63200	3911960641
+1988	8	"Web of Science"	"ivory"	4940000	66400	4080580336
+1989	8	"Web of Science"	"ivory"	5130000	71000	4205870329
+1990	2	"Web of Science"	"ivory"	5360000	75300	4564250434
+1991	5	"Web of Science"	"ivory"	6550000	76800	4381722431
+1992	4	"Web of Science"	"ivory"	6770000	80400	4717902147
+1993	8	"Web of Science"	"ivory"	6740000	86200	4743032944
+1994	12	"Web of Science"	"ivory"	6660000	95000	5103607036
+1995	14	"Web of Science"	"ivory"	6380000	95500	5411660513
+1996	7	"Web of Science"	"ivory"	6600000	102000	5935362941
+1997	15	"Web of Science"	"ivory"	6630000	106000	6073782805
+1998	16	"Web of Science"	"ivory"	7240000	118000	6502935387
+1999	13	"Web of Science"	"ivory"	8000000	120000	6894574035
+2000	15	"Web of Science"	"ivory"	8250000	133000	8184220292
+2001	4	"Web of Science"	"ivory"	8290000	140000	8588230334
+2002	12	"Web of Science"	"ivory"	9680000	145000	9697143330
+2003	14	"Web of Science"	"ivory"	13800000	150000	10962631655
+2004	12	"Web of Science"	"ivory"	17300000	154000	11949550089
+2005	28	"Web of Science"	"ivory"	21500000	156000	11337444519
+2006	17	"Web of Science"	"ivory"	23100000	160000	11875460179
+2007	19	"Web of Science"	"ivory"	27000000	160000	12552104939
+2008	32	"Web of Science"	"ivory"	77900000	146000	13598879452

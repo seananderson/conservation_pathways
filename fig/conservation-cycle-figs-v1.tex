@@ -1,0 +1,90 @@
+% Sean Anderson, 2011, sean@seananderson.ca
+\documentclass[12pt]{article}
+\usepackage{geometry} 
+\geometry{letterpaper}
+\usepackage{graphicx}
+%\usepackage{pdfpages}
+%\usepackage{lscape}
+%\usepackage{pdflscape}
+%\usepackage{setspace}
+
+%\usepackage{url} 
+%\urlstyle{rm} 
+
+%\usepackage[round]{natbib} 
+%\bibliographystyle{cjfas}   
+%\bibpunct{(}{)}{;}{a}{}{;}   
+
+\title{Preliminary tracking-conservation figures}
+%\author{Sean Anderson}
+%\date{}
+
+% Text layout
+%\topmargin 0.0cm
+%\oddsidemargin 0.5cm
+%\evensidemargin 0.5cm
+%\textwidth 16cm 
+%\textheight 21cm
+
+\setlength\parskip{0.1in}
+\setlength\parindent{0in}
+
+%\pagestyle{empty}
+%\setcounter{secnumdepth}{-2}
+
+\begin{document}
+%\begin{spacing}{1.1}
+\maketitle
+%\tableofcontents
+%\thispagestyle{empty}
+
+For all plots, the research trend is number of publications in the Web of Science scaled to 1 million publications in Google Scholar that year. The news trend is the number of news articles scaled to 1 million occurrences of the word ``the''.
+
+Some random notes on the layout of the figures cut and pasted from emails:
+I chose a 3-panel approach for a number of reasons. Generally, having multiple axes on one plot can be disingenuous to the
+underlying trends since you can make the relationships look quite
+different depending on how you scale them... however, by some miracle
+all the news and research trends end up on the same scale or a scale
+that's different by a factor of 10 or 100. So, one
+alternative would be to have the news and research plots on the same
+axes with solid and dashed lines (or colour) like the original plots, and then having a separate panel for the environmental data. The
+environmental data will probably require a separate panel since we're
+probably going to end up with 3 or more labeled trends for each, plus
+the scales will be completely different.
+
+Additionally, I chose a 3-panel approach because it clearly distinguishes the 3 components of the cycle and a
+hypothesized order to the components, it leaves space for future annotation of the trends themselves, and the vertical lines help align the time series and make comparisons
+of peaks and shifts in trends easier to identify... especially as we
+add more points in history on some of the sparser figures.
+
+
+
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[height=4.1in]{acid-rain-ts.pdf}
+	\caption{Acid rain. For the environmental data the dashed lines represent the states with the lowest (OH), and highest (ID) median pH and the most positive (IL) and most negative (OR) slopes. The main solid line represents the median mean temperature across all sites. The faint lines represent jack-knifed median estimates --- excluding one state at a time and recalculating the trend. There's not a lot of variability shown there, so we might want to exclude that.}
+	\label{fig:acid-rain-ts}
+\end{figure}
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[height=4.1in]{ddt-ts.pdf}
+	\caption{The DDT concentrations are scaled to the maximum value in each time series. The shaded region represents $\pm$ 1 standard deviation. We may want a third trend on this panel that goes back further and/or shows a different system/trend. Noel has a number of other datasets to discuss.}
+	\label{fig:ddt-ts}
+\end{figure}
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[height=4.1in]{ivory-ts.pdf}
+	\caption{We should discuss the minimum values being the same as the mean values for some years and the sources of the data: different years come from different sources and we should make sure they are comparable. Perhaps there are data for some representative populations? Also, perhaps there are other years of historical interest to note?}
+	\label{fig:ivory-ts}
+\end{figure}
+
+
+
+
+
+%\bibliography{/Users/seananderson/Dropbox/tex/jshort.bib,/Users/seananderson/Dropbox/tex/ref.bib}
+%\end{spacing}
+\end{document}

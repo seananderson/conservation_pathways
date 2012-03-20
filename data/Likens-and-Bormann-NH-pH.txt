@@ -1,0 +1,17 @@
+# Sacha: I've attached Likens and Bormann's pH readings from 1965-1972 from New Hampshire as a more reliable alternative.
+# Acid Rain: A Serious Regional Environmental Problem
+# Likens And Bormann
+# Science
+# 1974
+# vol 184-
+# p 1176-1179
+#
+year	pH 
+1965	4.17
+1966	4.2
+1967	4.18
+1968	4.19
+1969	4.15
+1970	4.04
+1971	4.1
+1972	4.15

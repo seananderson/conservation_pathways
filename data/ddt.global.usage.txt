@@ -1,0 +1,19 @@
+# global ddt usage
+# from noel
+# entered by sean on December 21, 2011
+# journal of environmental sciences vol 17, no 6 p899-905, 2005
+# Sun et al.
+# A 50-years record of dichloro-diphenyl... penguins...
+#
+year	Kt/a
+1950	45.408
+1955	60.204
+1960	80.102
+1965	58.163
+1967	57.143
+1970	20.918
+1975	3.061
+1980	3.061
+1985	3.061
+1990	2.041
+1995	1.531
