@@ -1,7 +1,7 @@
 # Elephan policy dates (from Brett and Jenny):
-year	label
-1973	Ivory trade first\nregulated by CITES
-1989	International ban\non ivory exports\n(CITES Appendix I)
-2002	S. Africa, Botswana,\nNamibia revert to\nCITES II
-#2002	Some populations\nreclassified to\nCITES Appendix II
-#2007	Zimbabwe to CITES\nAppendix II
+year	label	ypos	yseg
+1973	Ivory trade first\nregulated by CITES	1.20	1.1
+1989	International ban\non ivory exports\n(CITES Appendix I)	1.68	1.52
+2002	S. Africa, Botswana,\nNamibia revert to\nCITES II	1.24	1.1
+#2002	Some populations\nreclassified to\nCITES Appendix II	NA	NA
+#2007	Zimbabwe to CITES\nAppendix II	NA	NA
